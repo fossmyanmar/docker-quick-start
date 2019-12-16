@@ -40,7 +40,7 @@ $ docker ps
 $ docker ps -a
 ```
 
-## ![](https://lh5.googleusercontent.com/-9Ml2Bau6CsIIzIYj4-YKTG5QpHaW6qVec9k0Wc8JMqFe2qcsXcswczPsm4PySkySiKxYT7T_USa8RxH2u9n64KnlODb2tiddwaLHzA_uIb6EtExbPMJx2ZKq4Jxgy9NsGxR-VE)
+![](https://lh5.googleusercontent.com/-9Ml2Bau6CsIIzIYj4-YKTG5QpHaW6qVec9k0Wc8JMqFe2qcsXcswczPsm4PySkySiKxYT7T_USa8RxH2u9n64KnlODb2tiddwaLHzA_uIb6EtExbPMJx2ZKq4Jxgy9NsGxR-VE)
 
 ## Find all Details of Container
 
