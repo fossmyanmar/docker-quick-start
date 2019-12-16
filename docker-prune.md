@@ -10,7 +10,7 @@ $ docker [object] prune [options]
 
 ### Prune all unused Objects.
 
-အောက်က command ကတော့ docker က အသုံးမပြတော့တဲ့ container, image, volume နဲ့ network တွေကို ဖယ်ရှားပေးပါလိမ့်မယ်။
+အောက်က command ကတော့ docker က အသုံးမပြုတော့တဲ့ container, image, volume နဲ့ network တွေကို ဖယ်ရှားပေးပါလိမ့်မယ်။
 
 ```bash
 $ docker system prune
