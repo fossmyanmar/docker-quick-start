@@ -11,6 +11,8 @@
 * [Docker Port](docker-port.md)
 * [Docker Networking](docker-network.md)
 * [Docker Networking Example](docker-network-example.md)
+* [Docker Compose](docker-compose.md)
+* [Docker Compose Example](docker-compose-example.md)
 * [Docker Machine](docker-machine.md)
 * [Docker Prune](docker-prune.md)
 * [Sponsor](sponsor.md)

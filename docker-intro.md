@@ -2,7 +2,7 @@
 
 ## Docker မိတ်ဆက်
 
-Docker ဆိုတာ software container platform တစ်ခုပဲ ဖြစ်ပါတယ်။ Docker ဟာဆိုရင် application ​တွေ run ဖို့၊ develop ဖို့၊ ship ဖို့ လုပ်ထားတဲ့ open source platform တစ်ခုဖြစ်ပါတယ်။Docker က သင့်ရဲ့ application တစ်ခုဆီတိုင်း အတွက် သီးသန့် တည်ရှိတဲ့ environment တစ်ခုကို ဖန်တီး​ပေးမှာဖြစ်ပါတယ်။
+Docker ဆိုတာ software container platform တစ်ခုပဲ ဖြစ်ပါတယ်။ Docker ဟာဆိုရင် application ​တွေ run ဖို့၊ develop ဖို့၊ ship ဖို့ လုပ်ထားတဲ့ open source platform တစ်ခုဖြစ်ပါတယ်။Docker က သင့်ရဲ့ application တစ်ခုစီတိုင်း အတွက် သီးသန့် တည်ရှိတဲ့ environment တစ်ခုကို ဖန်တီး​ပေးမှာဖြစ်ပါတယ်။
 
 ## Docker Engine
 

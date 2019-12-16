@@ -48,7 +48,7 @@ $ chmod +x "$HOME/bin/docker-machine.exe"
 
 ### Docker Machine Supported Drivers:
 
-Docker Machime အတွက် Drivers များကို local and Cloud System များကို Provide လုပ်ပေးပါသည်။
+Docker Machine အတွက် Drivers များကို local and Cloud System များကို Provide လုပ်ပေးပါသည်။
 
 Dockerized hosts များ၏ ဖော်ပြပါ hosting Service များကို Docker Machine တခုတည်းဖြင့် Manage ပြုလုပ်နိုင်ပါသည်။
 
