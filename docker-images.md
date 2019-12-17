@@ -14,7 +14,7 @@ docker images ဆိုတဲ့ command နဲ့ ကိုယ့်စနစ�
 $ docker images
 ```
 
-[img -1](https://drive.google.com/open?id=1_wLyiUahOQzsRfswSeS1iB8RDq4DvfbT)
+![](.gitbook/assets/1_ls.png)
 
 ## Search Docker Images
 
@@ -24,7 +24,7 @@ docker search ဆိုတဲ့ command ကတော့ [docker hub](https://hu
 $ docker search wordpress
 ```
 
-[img - 2](https://drive.google.com/open?id=1gxug_Ldf9vhxAtiZK8wsFwURXyPo_YAK)
+![](.gitbook/assets/2_search-large-resolution.png)
 
 ## Download Docker Images
 
@@ -34,7 +34,7 @@ $ docker search wordpress
 $ docker pull wordpress
 ```
 
-[img - 3](https://drive.google.com/open?id=1JVqvPZtdrocB5UTqwysOcuU9hSrxfrwQ)
+![](.gitbook/assets/3_pull_wordpress.png)
 
 ## Delete Docker Images
 
@@ -43,4 +43,6 @@ $ docker pull wordpress
 ```text
  $ docker rmi wordpress
 ```
+
+![](.gitbook/assets/4_rmi.png)
 

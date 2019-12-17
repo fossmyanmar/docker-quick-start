@@ -10,11 +10,15 @@ Dockerfile ဆိုတာ နာမည်​အတိုင်းပဲ file �
 $ docker build -t image_name .
 ```
 
+![](.gitbook/assets/1_docker_build.png)
+
 ဒါက​တော့ ​ရေးပြီးသား dockerfile နဲ့ image build လုပ်​တဲ့ command ပါ။ `-t`ဆိုတာ tag name ကိုကိုယ်​စားပြုပါတယ်​ သူ့အ​နောက်​မှာ image name လိုက်​ပါတယ်​ ​သေချာကြည်​့ပါ command အဆုံးမှာ `( . )` ပါပါတယ်​ သူက current working directory မှာ ရှိတဲ့ Dockerfile ကိုယူပြီးသုံးမယ်​လို့ ဆိုလိုတာပါ အကယ်​၍ ခင်​​ဗျားမှာသာ Dockerfile တစ်​ခုမက ရှိ​နေရင်​ သို့မဟုတ်​ Dockerfile မှာ နာမည်​အစ D ကသာ small letter \(d\) ဖြစ်​​နေခဲ့မယ်​ဆိုရင်​ error တက်​နိုင်​ပါတယ်​
 
 ```text
 $ docker build -t image_name -f /path/to/Dockerfile
 ```
+
+
 
 ဒီ command ကလဲ image build တဲ့ command ပါပဲ။ ထူးခြားတာက​တော့ `-f` flag ကိုသုံးထားတာပါ။ Current working directory ထဲကမဟုတ်​ပဲ ခင်​​ဗျားရဲ့ file system ထဲက တစ်​​နေရာရာမှာ ရှိတဲ့ Dockerfile ကို ​ခေါ်သုံးချင်​ရင်​ ဒီလို သုံးရပါမယ်​။
 
@@ -27,6 +31,8 @@ $ git clone https://github.com/tecrahul/dockerfile
 $ cd dockerfile
 $ docker build -t apacheimage .
 ```
+
+![](.gitbook/assets/3c_apacheimage_build.png)
 
 အ​ပေါ်က command သုံး​ကြောင်းပြီးရင်​ image တစ်​ခု​ဆောက်​ပြီးပါပြီ ​ဆောက်​ပြီးသား images ​တွေကို docker images ဆိုတဲ့ command နဲ့​ခေါ်ကြည့်နိုင်​ပါတယ်​။
 

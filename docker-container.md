@@ -18,7 +18,7 @@ $ docker run hello-world
 $ docker run -it centos
 ```
 
-![](https://lh5.googleusercontent.com/w3zCpCpXI0XwXUEOqgGpwxTuviBiViOgrnb8k-RfcbnJVZR_SJRsmehhsFOWQBQralbho3euxGiCzvJ1kX0Lbg24IsoFGifUuiyHPn6ZDDFsqeQB8j_czCEDi4luPbsaTevRz7M)
+![](.gitbook/assets/2_run_ti_centos.png)
 
 ကျွန်တော်တို့ customized လုပ်ထားတဲ့ ssh access enabled လုပ်ထားတဲ့ Ubuntu docker image ကိုလည်း [docker hub repository](https://hub.docker.com/r/tecadmin/ubuntu-ssh/) မှာ စမ်းကြည့်လို့ရပါတယ်။
 
@@ -40,7 +40,7 @@ $ docker ps
 $ docker ps -a
 ```
 
-![](https://lh5.googleusercontent.com/-9Ml2Bau6CsIIzIYj4-YKTG5QpHaW6qVec9k0Wc8JMqFe2qcsXcswczPsm4PySkySiKxYT7T_USa8RxH2u9n64KnlODb2tiddwaLHzA_uIb6EtExbPMJx2ZKq4Jxgy9NsGxR-VE)
+![](.gitbook/assets/4a_ps-large-resolution.png)
 
 ## Find all Details of Container
 
