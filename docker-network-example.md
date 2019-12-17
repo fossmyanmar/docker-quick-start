@@ -68,6 +68,7 @@ $ docker network inspect my-bridge-network
 
 My-bridge-network ရဲ့ setting ကို ကြည့်ရင်တော့ အခုလိုတွေ့ရမှာဖြစ်ပါတယ်။
 
+![](file:///tmp/lu125437ibmwa.tmp/lu125437ibmwh_tmp_f503edd7d72922a4.png)
 
 ## Allow MySQL to PHPMyAdmin Host
 
@@ -104,7 +105,9 @@ Bye
 
 နောက်ဆုံးအနေဖြင့် ကျွန်တော် တို့ ရဲ့ docker host system က port 8080 မှ တဆင့် phpmyadmin web user interface ကို ချိတ်ဆက်လို့ ရသွားပါတယ်။
 
+![](file:///tmp/lu125437ibmwa.tmp/lu125437ibmwh_tmp_55e578f0e4dc74a1.png)
 
 phpMyAdmin ကို MySQL ရဲ့ အချက်အလက်တွေ သုံးပြီး အပေါ်မှာ ပြထားတဲ့ အတိုင်း Login ဝင်ရန် အသုံးပြုလို့ရပါတယ်။
 
+![](file:///tmp/lu125437ibmwa.tmp/lu125437ibmwh_tmp_2e5e564f470aece6.png)
 

@@ -26,7 +26,6 @@ Network အမျိုးအစား အမျိုးမျိုးကိ�
 
 **Syntax:**
 
-
 ```text
 $ docker network create -d [network_type] [network_name]
 ```
@@ -43,7 +42,7 @@ Container နာမည် \(သို့မဟုတ်\) Container ID ကို
 
 **Syntax:**
 
-```
+```text
   $  docker network connect [network_name] [container_name]
 ```
 
