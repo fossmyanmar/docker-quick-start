@@ -43,7 +43,9 @@ Container နာမည် \(သို့မဟုတ်\) Container ID ကို
 
 **Syntax:**
 
-  ****`$ docker network connect [network_name] [container_name]`
+```
+  $  docker network connect [network_name] [container_name]
+```
 
 **Example:**
 
