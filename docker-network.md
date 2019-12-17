@@ -26,6 +26,7 @@ Network အမျိုးအစား အမျိုးမျိုးကိ�
 
 **Syntax:**
 
+
 ```text
 $ docker network create -d [network_type] [network_name]
 ```
