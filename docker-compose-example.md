@@ -75,8 +75,9 @@ $ docker-compose stop             ## Stop all containers
 $ docker-compose stop web         ## Stop single container
 ```
 
-```text
 `restart –`
+
+```text
     Containers များကို restart ပြုလုပ်ရန် သုံးသည်။
 ```
 
@@ -85,10 +86,7 @@ $ docker-compose restart           ## Restart all containers
 $ docker-compose restart web       ## Restart single container
 ```
 
-```text
-`paue -`
-    Running Containers များကို paue လုပ်ရန်သုံးသည်။
-```
+`pause –` Containers များကို pause လုပ်ရန်သုံးသည်။
 
 ```text
 $ docker-compose pause            ## Start all paused containers
