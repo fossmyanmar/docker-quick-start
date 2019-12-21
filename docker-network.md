@@ -78,7 +78,6 @@ $ docker network inspect my-bridge-network
 
 inspect option ကို အသုံးပြုပြီး Docker Network တခုရဲ့ အသေးစိတ် အချက်အလက်ကိုကြည့်မယ် ဆိုရင် အခုလိုမြင်ရမှာ ဖြစ်ပါတယ်။
 
-![](file:///tmp/lu125437ibmwa.tmp/lu125437ibmwh_tmp_f503edd7d72922a4.png)
 
 ## Docker Network ကို Remove ခြင်း။
 
