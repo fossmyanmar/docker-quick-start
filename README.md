@@ -19,7 +19,7 @@ description: Docker Quick Start - Burmese
 * [Dockerfile](dockerfile.md)
 * [Dockerfile Directives](docker-directives.md)
 * [Docker Port](docker-port.md)
-* [Docker Networking](https://github.com/fossmyanmar/docker-quick-start/tree/987f844db832fbea25bb9db3b25c0669f4e5e1f1/docker-network.md)
+* [Docker Networking](docker-network.md)
 * [Docker Networking Example](docker-network-example.md)
 * [Docker Machine](docker-machine.md)
 * [Docker Prune](docker-prune.md)
