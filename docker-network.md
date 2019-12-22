@@ -78,7 +78,6 @@ $ docker network inspect my-bridge-network
 
 inspect option ကို အသုံးပြုပြီး Docker Network တခုရဲ့ အသေးစိတ် အချက်အလက်ကိုကြည့်မယ် ဆိုရင် အခုလိုမြင်ရမှာ ဖြစ်ပါတယ်။
 
-
 ## Docker Network ကို Remove ခြင်း။
 
 Docker network တွေကို remove လုပ်မယ်ဆိုရင် rm option ကို အသုံးပြုလို့ပါတယ်။
