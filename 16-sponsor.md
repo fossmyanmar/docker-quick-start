@@ -8,13 +8,13 @@ description: Content and Translator List
 
 **Becoming a kindly super hero:**
 
-waiyanwinhtain   
+waiyanwinhtain  
 [https://fb.com/waiyanwinhtain2016](https://fb.com/waiyanwinhtain2016)
 
-khinchanmyaehtun   
+khinchanmyaehtun  
 [https://fb.com/profile.php?id=100010791125505](https://fb.com/profile.php?id=100010791125505)
 
-pyaephyoaung   
+pyaephyoaung  
 [https://fb.com/pyae.aung.7127](https://fb.com/pyae.aung.7127)
 
 zawyelwin  
@@ -26,16 +26,14 @@ thutatun
 kyawkyaw  
 [https://fb.com/alin.thit.79](https://fb.com/alin.thit.79)
 
-nyinyisoewin   
+nyinyisoewin  
 [https://fb.com/NyiNyiSoeWin.nnsw](https://fb.com/NyiNyiSoeWin.nnsw)
 
-minthatti   
+minthatti  
 [https://fb.com/thuta.livingunderthesamebluesky](https://fb.com/thuta.livingunderthesamebluesky)
 
-sanjay   
+sanjay  
 [https://fb.com/sanjay.ttg](https://fb.com/sanjay.ttg)
-
-
 
 ### Original Content from TecAdmin.net
 
@@ -46,11 +44,9 @@ lynx https://tecadmin.net/tutorial/docker/
 ```
 {% endcode %}
 
-### 
-
 ### Relative Content list
 
-**Ubuntu Wiki - Burmese** 
+**Ubuntu Wiki - Burmese**
 
 * [https://ubuntu-mm.net/umw/](https://ubuntu-mm.net/umw/)
   * [https://github.com/fossmyanmar/ubuntu-mm-wiki](https://github.com/fossmyanmar/ubuntu-mm-wiki)
@@ -63,5 +59,4 @@ lynx https://tecadmin.net/tutorial/docker/
 #### PDF Download
 
 [https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker\_Quick\_Start-Pyidaungsu\_Khayay.pdf](https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker_Quick_Start-Pyidaungsu_Khayay.pdf)
-
 
