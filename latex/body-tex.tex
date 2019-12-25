@@ -1,66 +1,3 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\usepackage{graphicx}
-%\usepackage{draftwatermark}
-%\SetWatermarkText{\centering\put(80,780){\includegraphics[width=0.3\textwidth]{./docker.png}}}
-\usepackage{fontspec}
-\setmainfont{PR.ttf}[
-BoldFont = MyanmarKhyay.ttf ]
-\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
-
-\begin{document}
-
-\iffalse
-{center}\rule{3in}{0.4pt}\end{center}
-\fi
-
-
-%\usepackage{fancyvrb}
-\clearpage
-%% temporary titles
-% command to provide stretchy vertical space in proportion
-\newcommand\nbvspace[1][3]{\vspace*{\stretch{#1}}}
-% allow some slack to avoid under/overfull boxes
-\newcommand\nbstretchyspace{\spaceskip0.5em plus 0.25em minus 0.25em}
-% To improve spacing on titlepages
-\newcommand{\nbtitlestretch}{\spaceskip0.6em}
-\pagestyle{empty}
-\begin{center}
-\bfseries
-\nbvspace[1]
-\Huge
-{\nbtitlestretch\huge
-DOCKER QUICK START GUIDE}
-
-\nbvspace[1]
-\normalsize
-
-Docker is a software container platform. \\
-It is an open platform for developing, shipping, \\
-and running applications. 
-\nbvspace[1]
-
-\small BY\\
-\Large RAHUL KUMAR\\[0.5em]
-\footnotesize AUTHOR OF ``TECADMIN.NET,'' ``SHELL SCRIPTING,'' \\
-``GIT,'' ``LINUX,'' ``MONGODB,'' ``MYSQL,'' ETC.,
-
-\nbvspace[2]
-
-\includegraphics[width=2.5in]{./docker.png}
-\nbvspace[3]
-\normalsize
-
-ဗမာ ဘာသာပြန်\\
-\large
-DEVOPS - FOSS MYANMAR
-\nbvspace[1]
-\end{center}
-
-
-\pagebreak
-
 \section{Docker Intro}\label{docker-intro}
 
 \subsection{Docker Intro}\label{docker-intro-1}
@@ -94,7 +31,7 @@ Docker Engine ဟာဆိုရင် Docker ရဲ့ core ဖြစ်ပြ�
 \includegraphics{.gitbook/assets/screenshot-129.png}
 \end{figure}
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Features}\label{docker-features}
 
@@ -110,7 +47,7 @@ Docker container တစ်ခုဟာ application တစ်ခု packaging လ
 နိုင်ပါ​သေးတယ်။ အဲ့ containers ​တွေကိုပဲ run ထားတဲ့ host က္​နေ တစ်ခြား
 host တစ်ခုဆီကို ​ပြောင်း​​ရွှေ့ နိုင်ဦးမှာဖြစ်ပါတယ်။
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Install}\label{docker-install}
 
@@ -271,7 +208,7 @@ $ sudo systemctl restart docker
 Docker service active ဖြစ်လာပါက docker ကို စတင်
 အသုံးပြုနိုင်မှာဖြစ်ပါတယ်။
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Container}\label{docker-container-1}
 
@@ -367,7 +304,7 @@ $ docker stop cc5d74cf8250
 $ docker rm cc5d74cf8250
 \end{verbatim}
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Images}\label{docker-images}
 
@@ -442,7 +379,7 @@ command ကိုသုံးပါတယ်။ ဥပမာ -
 \includegraphics{.gitbook/assets/4_rmi.png}
 \end{figure}
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Dockerfile}\label{dockerfile}
 
@@ -516,7 +453,7 @@ $ docker run -it -p 8080:80 apacheimage
 port ကြားမှာ full column \texttt{( : )} နဲ့ အ​နောက်​က container ရဲ့ port
 ကို​ရေးရမှာပါ။
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Dockerfile Directives}\label{dockerfile-directives}
 
@@ -656,7 +593,7 @@ create ဖို့ သုံးပါတယ်​။ သိထားဖို�
 VOLUME ["/data"]
 \end{verbatim}
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Port}\label{docker-port}
 
@@ -876,7 +813,7 @@ $သို့မဟုတ်$ network name တွေကို space ခံပြ
 $ docker network prune
 \end{verbatim}
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Networking Example}\label{docker-networking-example}
 
@@ -1011,7 +948,7 @@ PHPMyAdmin}\label{access-mysql-with-phpmyadmin}
 phpMyAdmin ကို MySQL ရဲ့ အချက်အလက်တွေ သုံးပြီး အပေါ်မှာ ပြထားတဲ့ အတိုင်း
 Login ဝင်ရန် အသုံးပြုလို့ရပါတယ်။
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Compose}\label{docker-compose}
 
@@ -1168,7 +1105,7 @@ $ docker-compose rm               ## Start all paused containers
 $ docker-compose pause web        ## Start single paused container
 \end{verbatim}
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Compose Example}\label{docker-compose-example}
 
@@ -1331,7 +1268,7 @@ $ docker-compose build
 $ docker-compose up -d
 \end{verbatim}
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Machine}\label{docker-machine}
 
@@ -1433,7 +1370,7 @@ Dockerized hosts များ၏ ဖော်ပြပါ hosting Service မျ
   VMware vSphere
 \end{itemize}
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \section{Docker Prune}\label{docker-prune}
 
@@ -1539,7 +1476,7 @@ $ docker volume prune -a -f
 Reference from
 \href{https://tecadmin.net/tutorial/docker/docker-prune-unused-objects/}{tecadmin}.
 
-\pagebreak
+\textbackslash{}pagebreak
 
 \begin{center}\rule{3in}{0.4pt}\end{center}
 
@@ -1573,15 +1510,14 @@ sanjay\\\href{https://fb.com/sanjay.ttg}{\url{https://fb.com/sanjay.ttg}}
 \subsubsection{Original Content from
 TecAdmin.net}\label{original-content-from-tecadmin.net}
 
+\{\% code title=``original-article.sh'' \%\}
 
 \begin{verbatim}
- code title=``original-article.sh'' 
-
-
 # Special Thank to TecAdmin
 lynx https://tecadmin.net/tutorial/docker/
 \end{verbatim}
 
+\{\% endcode \%\}
 
 \subsubsection{Relative Content list}\label{relative-content-list}
 
@@ -1606,9 +1542,7 @@ lynx https://tecadmin.net/tutorial/docker/
 \end{itemize}
 
 \paragraph{PDF Download}\label{pdf-download}
-\href{https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker\_Quick\_Start-Pyidaungsu\_Khayay.pdf}{\url{https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker\_Quick\_Start-Pyidaungsu\_Khayay.pdf}}
 
-\pagebreak
-\end{document}
-\end{document}
+\href{https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker_Quick_Start-Pyidaungsu_Khayay.pdf}{{[}https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker\textbackslash{}\_Quick\textbackslash{}\_Start-Pyidaungsu\textbackslash{}\_Khayay.pdf{]}(https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker\_Quick\_Start-Pyidaungsu\_Khayay.pdf)}
 
+\textbackslash{}pagebreak
