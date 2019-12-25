@@ -6,40 +6,36 @@ description: Content and Translator List
 
 ## Our Hero List
 
-Becoming a kindly super hero:
+**Becoming a kindly super hero:**
 
-```
-$cat /etc/hero
+waiyanwinhtain   
+[https://fb.com/waiyanwinhtain2016](https://fb.com/waiyanwinhtain2016)
 
-#!/var/value
+khinchanmyaehtun   
+[https://fb.com/profile.php?id=100010791125505](https://fb.com/profile.php?id=100010791125505)
 
-waiyanwinhtain 
-https://fb.com/waiyanwinhtain2016
+pyaephyoaung   
+[https://fb.com/pyae.aung.7127](https://fb.com/pyae.aung.7127)
 
-khinchanmyaehtun
-https://fb.com/profile.php?id=100010791125505
+zawyelwin  
+[https://fb.com/zawye.lwin.9](https://fb.com/zawye.lwin.9)
 
-pyaephyoaung 
-https://fb.com/pyae.aung.7127
+thutatun  
+[https://fb.com/tamoeout.pisi](https://fb.com/tamoeout.pisi)
 
-zawyelwin    
-https://fb.com/zawye.lwin.9
+kyawkyaw  
+[https://fb.com/alin.thit.79](https://fb.com/alin.thit.79)
 
-thutatun    
-https://fb.com/tamoeout.pisi
+nyinyisoewin   
+[https://fb.com/NyiNyiSoeWin.nnsw](https://fb.com/NyiNyiSoeWin.nnsw)
 
-kyawkyaw    
-https://fb.com/alin.thit.79
+minthatti   
+[https://fb.com/thuta.livingunderthesamebluesky](https://fb.com/thuta.livingunderthesamebluesky)
 
-www.nyinyisoewin
-https://fb.com/NyiNyiSoeWin.nnsw
+sanjay   
+[https://fb.com/sanjay.ttg](https://fb.com/sanjay.ttg)
 
-minthatti
-https://fb.com/thuta.livingunderthesamebluesky
 
-sanjay
-https://fb.com/sanjay.ttg
-```
 
 ### Original Content from TecAdmin.net
 
