@@ -13,8 +13,7 @@
 * [Docker Networking Example](10-docker-network-example.md)
 * [Docker Compose](11-docker-compose.md)
 * [Docker Compose Example](12-docker-compose-example.md)
-* [Docker Compose Example \(latest\)](13-docker-compose-example.md)
-* [Docker Machine](14-docker-machine.md)
-* [Docker Prune](15-docker-prune.md)
-* [Sponsor](16-sponsor.md)
+* [Docker Machine](13-docker-machine.md)
+* [Docker Prune](14-docker-prune.md)
+* [Sponsor](15-sponsor.md)
 

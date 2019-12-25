@@ -21,7 +21,7 @@ description: Docker Quick Start - Burmese
 * [Docker Port](08-docker-port.md)
 * [Docker Networking](09-docker-network.md)
 * [Docker Networking Example](10-docker-network-example.md)
-* [Docker Machine](14-docker-machine.md)
-* [Docker Prune](15-docker-prune.md)
-* [Sponsor](16-sponsor.md)
+* [Docker Machine](13-docker-machine.md)
+* [Docker Prune](14-docker-prune.md)
+* [Sponsor](15-sponsor.md)
 
