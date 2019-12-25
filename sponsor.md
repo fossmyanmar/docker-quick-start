@@ -52,23 +52,16 @@ lynx https://tecadmin.net/tutorial/docker/
 
 **Ubuntu Wiki - Burmese** 
 
-* \*\*\*\*[https://ubuntu-mm.net/umw/](https://ubuntu-mm.net/umw/)
+* [https://ubuntu-mm.net/umw/](https://ubuntu-mm.net/umw/)
   * [https://github.com/fossmyanmar/ubuntu-mm-wiki](https://github.com/fossmyanmar/ubuntu-mm-wiki)
 
 **Docker Study Jams**
 
-* \*\*\*\*[http://docker-study-jams.herokuapp.com/](http://docker-study-jams.herokuapp.com/)
+* [http://docker-study-jams.herokuapp.com/](http://docker-study-jams.herokuapp.com/)
   * [https://github.com/fossmyanmar/docker-kubernetes](https://github.com/fossmyanmar/docker-kubernetes)
 
 #### PDF Download
 
 [https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker\_Quick\_Start-Pyidaungsu\_Khayay.pdf](https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker_Quick_Start-Pyidaungsu_Khayay.pdf)
-
-
-
-### 
-
-
-
 
 
