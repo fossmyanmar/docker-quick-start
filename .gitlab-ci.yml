@@ -1,0 +1,7 @@
+compile_pdf:
+  image: moss/xelatex
+  script:
+    - xelatex main.tex
+  artifacts:
+    paths:
+      - main.pdf

@@ -2,9 +2,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
 \usepackage{graphicx}
+%\usepackage{draftwatermark}
+%\SetWatermarkText{\centering\put(80,780){\includegraphics[width=0.70\paperwidth][width=0.3\textwidth]{./docker.png}}}
 \usepackage{fontspec}
 \setmainfont{PR.ttf}[
-BoldFont = PB.ttf ]
+BoldFont = MyanmarKhyay.ttf ]
 \PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
 
 \begin{document}
@@ -46,7 +48,7 @@ and running applications.
 
 \nbvspace[2]
 
-\includegraphics[width=1.5in]{./docker.png}
+\includegraphics[width=2.5in]{./docker.png}
 \nbvspace[3]
 \normalsize
 
@@ -59,57 +61,15 @@ DEVOPS - FOSS MYANMAR
 
 \pagebreak
 
-
-\section{Docker Quick Start Intro}\label{docker-quick-start-intro}
-
-\subsection{Docker Quick Start Intro}\label{docker-quick-start-intro-1}
-
-    \href{https://tecadmin.net/tutorial/docker}{\url{https://tecadmin.net/tutorial/docker}}
-
-\subsection{Table of contents}\label{table-of-contents}
-
-\begin{itemize}
-\itemsep1pt\parskip0pt\parsep0pt
-\item
-  \href{./}{Docker Quick Start Intro}\\
-\item
-  \href{docker-intro.md}{Docker Intro}\\
-\item
-  \href{docker-features.md}{Docker Features}\\
-\item
-  \href{docker-install.md}{Docker Install}\\
-\item
-  \href{docker-container.md}{Docker Container}\\
-\item
-\href{docker-images.md}{Docker Images}\\
-\item
-\href{dockerfile.md}{Dockerfile}\\
-\item
-  \href{docker-directives.md}{Dockerfile Directives}\\
-\item
-  \href{docker-port.md}{Docker Port}\\
-\item
-  \href{https://github.com/fossmyanmar/docker-quick-start/tree/987f844db832fbea25bb9db3b25c0669f4e5e1f1/docker-network.md}{Docker
-  Networking}\\
-\item
-  \href{docker-network-example.md}{Docker Networking Example}\\
-\item
-  \href{docker-machine.md}{Docker Machine}\\
-\item
-    \href{docker-prune.md}{Docker Prune}\\
-\item
-    \href{sponsor.md}{Sponsor}
-\end{itemize}
-
-\pagebreak
-
-
 \section{Docker Intro}\label{docker-intro}
 
-\subsection{Docker မိတ်ဆက်}\label{docker-}
+\subsection{Docker Intro}\label{docker-intro}
 
-Docker ဆိုတာ software container platform တစ်ခုပဲ ဖြစ်ပါတယ်။ Dockerဟာဆိုရင် application ​တွေ run ဖို့၊ develop ဖို့၊ ship ဖို့ လုပ်ထားတဲ့ open source platform တစ်ခုဖြစ်ပါတယ်။Docker က သင့်ရဲ့ application
-တစ်ခုဆီတိုင်း အတွက် သီးသန့် တည်ရှိတဲ့ environment တစ်ခုကိုဖန်တီး​ပေးမှာဖြစ်ပါတယ်။
+Docker ဆိုတာ software container platform တစ်ခုပဲ ဖြစ်ပါတယ်။ Docker
+ဟာဆိုရင် application ​တွေ run ဖို့၊ develop ဖို့၊ ship ဖို့ လုပ်ထားတဲ့
+open source platform တစ်ခုဖြစ်ပါတယ်။Docker က သင့်ရဲ့ application
+တစ်ခုစီတိုင်း အတွက် သီးသန့် တည်ရှိတဲ့ environment တစ်ခုကို
+ဖန်တီး​ပေးမှာဖြစ်ပါတယ်။
 
 \subsection{Docker Engine}\label{docker-engine}
 
@@ -120,17 +80,19 @@ Docker Engine ဟာဆိုရင် Docker ရဲ့ core ဖြစ်ပြ�
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  Server daemon process တစ်ခုဟာစဥ်ဆက်မပျက် run ခြင်း\\
+  Server daemon process တစ်ခုဟာစဥ်ဆက်မပျက် run ခြင်း
 \item
   ကျန်ရှိ​သော API ဟာ daemon ​တွေကို ချိတ်ဆက်ပြီး instruction ​တွေ ကို
-  daemon ​တွေဆီ ​ပေးပို့ခြင်း\\
+  daemon ​တွေဆီ ​ပေးပို့ခြင်း
 \item
-  Command Line Interface $CLI$ အဖြစ်​ဆောင်ရွက်ခြင်း စတ​တွေကို
+  Command Line Interface (CLI) အဖြစ်​ဆောင်ရွက်ခြင်း စတ​တွေကို
   လုပ်​ဆောင်​ပေးပါတယ်။
 \end{itemize}
 
-\pagebreak
-
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/screenshot-129.png}
+\end{figure}
 
 \section{Docker Features}\label{docker-features}
 
@@ -145,8 +107,6 @@ Docker container တစ်ခုဟာ application တစ်ခု packaging လ
 ပြီး​တော့ Single Host တစ်ခုမှာပဲ တစ်ခုထက်ပိုတဲ့ containers ​တွေကို run
 နိုင်ပါ​သေးတယ်။ အဲ့ containers ​တွေကိုပဲ run ထားတဲ့ host က္​နေ တစ်ခြား
 host တစ်ခုဆီကို ​ပြောင်း​​ရွှေ့ နိုင်ဦးမှာဖြစ်ပါတယ်။
-
-\pagebreak
 
 \section{Docker Install}\label{docker-install}
 
@@ -211,9 +171,7 @@ Docker daemon service နှင့်အတူ docker cli ကိုပါ တပ
 
 \begin{verbatim}
 $ docker
-\end{verbatim}
 
-\begin{verbatim}
 Output:
 
 
@@ -307,8 +265,6 @@ $ sudo systemctl restart docker
 Docker service active ဖြစ်လာပါက docker ကို စတင်
 အသုံးပြုနိုင်မှာဖြစ်ပါတယ်။
 
-\pagebreak
-
 \section{Docker Container}\label{docker-container-1}
 
 \subsection{Docker Container}\label{docker-container-2}
@@ -340,7 +296,10 @@ pseudo-TTY အသုံးပြုလို့ရတဲ့ interactive session 
 $ docker run -it centos
 \end{verbatim}
 
-\includegraphics{https://lh5.googleusercontent.com/w3zCpCpXI0XwXUEOqgGpwxTuviBiViOgrnb8k-RfcbnJVZR_SJRsmehhsFOWQBQralbho3euxGiCzvJ1kX0Lbg24IsoFGifUuiyHPn6ZDDFsqeQB8j_czCEDi4luPbsaTevRz7M}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/2_run_ti_centos.png}
+\end{figure}
 
 ကျွန်တော်တို့ customized လုပ်ထားတဲ့ ssh access enabled လုပ်ထားတဲ့ Ubuntu
 docker image ကိုလည်း
@@ -370,7 +329,10 @@ $ docker ps
 $ docker ps -a
 \end{verbatim}
 
-\includegraphics{https://lh5.googleusercontent.com/-9Ml2Bau6CsIIzIYj4-YKTG5QpHaW6qVec9k0Wc8JMqFe2qcsXcswczPsm4PySkySiKxYT7T_USa8RxH2u9n64KnlODb2tiddwaLHzA_uIb6EtExbPMJx2ZKq4Jxgy9NsGxR-VE}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/4a_ps-large-resolution.png}
+\end{figure}
 
 \subsection{Find all Details of
 Container}\label{find-all-details-of-container}
@@ -397,9 +359,6 @@ $ docker stop cc5d74cf8250
 $ docker rm cc5d74cf8250
 \end{verbatim}
 
-\pagebreak
-
-
 \section{Docker Images}\label{docker-images}
 
 \subsection{Docker Images}\label{docker-images-1}
@@ -424,8 +383,10 @@ docker images ဆိုတဲ့ command နဲ့ ကိုယ့်စနစ�
 $ docker images
 \end{verbatim}
 
-\href{https://drive.google.com/open?id=1_wLyiUahOQzsRfswSeS1iB8RDq4DvfbT}{img
--1}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/1_ls.png}
+\end{figure}
 
 \subsection{Search Docker Images}\label{search-docker-images}
 
@@ -437,8 +398,10 @@ images တွေကိုရှာမယ်ဆိုရင် -
 $ docker search wordpress
 \end{verbatim}
 
-\href{https://drive.google.com/open?id=1gxug_Ldf9vhxAtiZK8wsFwURXyPo_YAK}{img
-- 2}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/2_search-large-resolution.png}
+\end{figure}
 
 \subsection{Download Docker Images}\label{download-docker-images}
 
@@ -450,8 +413,10 @@ $ docker search wordpress
 $ docker pull wordpress
 \end{verbatim}
 
-\href{https://drive.google.com/open?id=1JVqvPZtdrocB5UTqwysOcuU9hSrxfrwQ}{img
-- 3}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/3_pull_wordpress.png}
+\end{figure}
 
 \subsection{Delete Docker Images}\label{delete-docker-images}
 
@@ -462,9 +427,14 @@ command ကိုသုံးပါတယ်။ ဥပမာ -
  $ docker rmi wordpress
 \end{verbatim}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/4_rmi.png}
+\end{figure}
+
 \section{Dockerfile}\label{dockerfile}
 
-Working with Dockerfile
+\subsection{Working with Dockerfile}\label{working-with-dockerfile}
 
 Dockerfile ဆိုတာ နာမည်​အတိုင်းပဲ file တစ်​ခုပါပဲ။ သူ့ဆီမှာ တိကျတဲ့
 instructions ​တွေပါမယ်​ အဲ့ instructions ​တွေနဲ့ ကိုယ်​လိုချင်​တဲ့
@@ -478,13 +448,18 @@ Dockerfile}\label{build-image-with-dockerfile}
 $ docker build -t image_name .
 \end{verbatim}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/1_docker_build.png}
+\end{figure}
+
 ဒါက​တော့ ​ရေးပြီးသား dockerfile နဲ့ image build လုပ်​တဲ့ command ပါ။
 \texttt{-t}ဆိုတာ tag name ကိုကိုယ်​စားပြုပါတယ်​ သူ့အ​နောက်​မှာ image
 name လိုက်​ပါတယ်​ ​သေချာကြည်​့ပါ command အဆုံးမှာ \texttt{( . )}
 ပါပါတယ်​ သူက current working directory မှာ ရှိတဲ့ Dockerfile
 ကိုယူပြီးသုံးမယ်​လို့ ဆိုလိုတာပါ အကယ်​၍ ခင်​​ဗျားမှာသာ Dockerfile
 တစ်​ခုမက ရှိ​နေရင်​ သို့မဟုတ်​ Dockerfile မှာ နာမည်​အစ D ကသာ small
-letter $d$ ဖြစ်​​နေခဲ့မယ်​ဆိုရင်​ error တက်​နိုင်​ပါတယ်​
+letter (d) ဖြစ်​​နေခဲ့မယ်​ဆိုရင်​ error တက်​နိုင်​ပါတယ်​
 
 \begin{verbatim}
 $ docker build -t image_name -f /path/to/Dockerfile
@@ -505,6 +480,11 @@ $ cd dockerfile
 $ docker build -t apacheimage .
 \end{verbatim}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/3c_apacheimage_build.png}
+\end{figure}
+
 အ​ပေါ်က command သုံး​ကြောင်းပြီးရင်​ image တစ်​ခု​ဆောက်​ပြီးပါပြီ
 ​ဆောက်​ပြီးသား images ​တွေကို docker images ဆိုတဲ့ command
 နဲ့​ခေါ်ကြည့်နိုင်​ပါတယ်​။
@@ -521,10 +501,8 @@ $ docker run -it -p 8080:80 apacheimage
 ကိုယ်​စားပြုပါတယ်​။ \texttt{-p}ဆိုတာက​တော့ port သတ်​မှတ်​​ပေးတာပါ၊ ဒီ
 ဥပမာမှာဆို ကိုယ့် host system ရဲ့ port 8080 နဲ့ container ရဲ့ port 80ကို
 ချိတ်​​ပေးဖို့ သုံးထားတာကို ​တွေ့ရမှာပါ။ အ​ရှေ့က ကိုယ်​့ host systemရဲ့
-port ကြားမှာ full coulmn \texttt{( : )} နဲ့ အ​နောက်​က container ရဲ့ port
+port ကြားမှာ full column \texttt{( : )} နဲ့ အ​နောက်​က container ရဲ့ port
 ကို​ရေးရမှာပါ။
-
-\pagebreak
 
 \section{Dockerfile Directives}\label{dockerfile-directives}
 
@@ -664,9 +642,6 @@ create ဖို့ သုံးပါတယ်​။ သိထားဖို�
 VOLUME ["/data"]
 \end{verbatim}
 
-\pagebreak
-
-
 \section{Docker Port}\label{docker-port}
 
 \subsection{Manage Ports in Docker}\label{manage-ports-in-docker}
@@ -676,12 +651,16 @@ Docker containers တွေထဲမှာဆိုရင် servicesတွေ�
 services ‌တွေကို အသုံးပြုချင်တယ်ဆိုရင် container ရဲ့ port ကို Docker
 host ရဲ့ port တစ်တစ်ခုခုနဲ့ bindပေးရပါတယ်။
 
-\subsubsection{ဥပမာ ၁}
+\subsubsection{ဥပမာ ၁}\label{ux1025ux1015ux1019}
 
 အောက်‌ကပုံကိုကြည့်ပါ။ Docker host ထဲမှာ container နှစ်လုံး run နေတာကို
 တွေ့ရပါလိမ့်မယ်။ ပထမတစ်ခုကတော့ website တွေ runနေတဲ့ Apache container
-ဖြစ်ပြီးတော့ ဒုတိယတစ်ခုကတော့ MySQL container
-ဖြစ်ပါတယ်။\\\includegraphics{https://tecadmin.net/tutorial/wp-content/uploads/2017/09/Docker-port-binding.png}
+ဖြစ်ပြီးတော့ ဒုတိယတစ်ခုကတော့ MySQL container ဖြစ်ပါတယ်။
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/screenshot-132.png}
+\end{figure}
 
 အခုကျွန်တော်တို့ port 80 Apache container ပေါမှာ run နေတယ် website
 ကိုဝင်ရောက်ကြည့်ရှုဖို့လိုအပ်နေပါတယ်။ အဲတော့ ကျွန်တောတို့ Apache
@@ -702,7 +681,7 @@ $ docker run -it -p 8080:80 apache_image
 $ docker run -it -p 6603:3066 mysql_image
 \end{verbatim}
 
-\subsubsection{ဥပမာ ၂}\label{-1}
+\subsubsection{ဥပမာ ၂}\label{ux1025ux1015ux1019-1}
 
 ဒီဥပမာမှာတော့ GitHub ပေါ်မှာရှိတယ် ကျွန်တော်တို့ရဲ နမူနာ project
 ကိုသုံးရမှာဖြစ်ပါတယ်။ အောက်က command ကိုသုံးပြီးတော့ repository ကို
@@ -715,7 +694,7 @@ $ cd dockerfile
 
 အခု apacheimage ဆိုတဲ့အမည်နဲ့ docker image ကို build လိုက်ပါ။
 
-\begin{verbatim} 
+\begin{verbatim}
 $ docker build -t apacheimage .
 \end{verbatim}
 
@@ -733,9 +712,12 @@ $ docker run -it -p 8080:80 apacheimage
 service ပေါ်မှာ run နေတယ် web page တစ်မျက်မှာပေါ်လာပါလိမ့်မယ်။
 ကျွန်တော့်ရဲ host machine ip ကတော့ 192.168.1.237 ဖြစ်ပါတယ်။
 
-\includegraphics{https://tecadmin.net/tutorial/wp-content/uploads/2017/08/access-apache-of-instance.png}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.70\paperwidth]{.gitbook/assets/docker_file_and_docker_port.png}
+\end{figure}
 
-\subsubsection{ဥပမာများ}
+\subsubsection{ဥပမာများ}\label{ux1025ux1015ux1019ux1019}
 
 ကျွန်တော်တို့ container တစ်ခုတည်းနဲ့ port များစွာကို bind နိုင်ပါတယ်။
 ဒါပေမဲ့ image build မလုပ်ခင် port အားလုံးကို dockerfile ထဲမှာ
@@ -773,7 +755,7 @@ $ docker network [options]
 manage စတဲ့ features တွေကို လုပ်ဆောင်လို့ရပါတယ်။
 
 \subsection{Docker Networks များ ကို List
-လုပ်ခြင်း။}\label{docker-networks---list-}
+လုပ်ခြင်း။}\label{docker-networks-ux1019-ux1000-list-ux101cux1015ux1001ux1004}
 
 \texttt{ls} option ကို အသုံးပြုပြီး docker host ပေါ်မှာ ရှိတဲ့ docker
 network တွေ ကို List လုပ်လို့ရပါတယ်။
@@ -783,7 +765,7 @@ $ docker network ls
 \end{verbatim}
 
 \subsection{Docker Network တခု Create
-လုပ်ခြင်း။}\label{docker-network--create-}
+လုပ်ခြင်း။}\label{docker-network-ux1010ux1001-create-ux101cux1015ux1001ux1004}
 
 Network အမျိုးအစား အမျိုးမျိုးကို Docker မှ ထောက်ပံ့ပေးထားပါတယ်။ သင့်ရဲ့
 system ပေါ်မှာ a bridge Network တခုကို အောက်ပါ command အသုံးပြုပြီး
@@ -802,9 +784,9 @@ $ docker network create -d bridge my-bridge-network
 \end{verbatim}
 
 \subsection{Container ကို Network
-ချိတ်ခြင်း။}\label{container--network-}
+ချိတ်ခြင်း။}\label{container-ux1000-network-ux1001ux1010ux1001ux1004}
 
-Container နာမည် $သို့မဟုတ်$ Container ID ကို အသုံးပြုပြီး မည်သည့်
+Container နာမည် (သို့မဟုတ်) Container ID ကို အသုံးပြုပြီး မည်သည့်
 container ကိုမဆို ရှိပြီးသား docker network နဲ့ ချိတ်ဆက်နိုင်ပါတယ်။
 Container တစ်ခုကို Network နဲ့ တစ်ချိန် ချိတ်ဆက်ထားရုံနဲ့ အခြား
 container များကိုလဲ တူညီတဲ့ Network တခုတည်းပေါ်မှာ
@@ -812,7 +794,9 @@ container များကိုလဲ တူညီတဲ့ Network တခုတ
 
 \textbf{Syntax:}
 
-\texttt{\$ docker network connect {[}network\_name{]} {[}container\_name{]}}
+\begin{verbatim}
+  $  docker network connect [network_name] [container_name]
+\end{verbatim}
 
 \textbf{Example:}
 
@@ -821,7 +805,7 @@ container များကိုလဲ တူညီတဲ့ Network တခုတ
 \end{verbatim}
 
 \subsection{Docker Network နှင့် Container ကို disconnect
-လုပ်ခြင်း။}\label{docker-network--container--disconnect-}
+လုပ်ခြင်း။}\label{docker-network-ux1014ux1004-container-ux1000-disconnect-ux101cux1015ux1001ux1004}
 
 သင့်အနေနဲ့ Network တခုပေါ်ကနေ container ကို disconnect လုပ်ချင်ရင်
 အောက်ပါ command ကို အသုံးပြုနိုင်ပါတယ်။
@@ -839,7 +823,7 @@ $ docker network disconnect [network_name] [container_name]
 \end{verbatim}
 
 \subsection{Docker Network တခုရဲ့ အချက်အလက်
-ကိုကြည့်ခြင်း။}\label{docker-network---}
+ကိုကြည့်ခြင်း}\label{docker-network-ux1010ux1001ux101b-ux1021ux1001ux1000ux1021ux101cux1000-ux1000ux1000ux100aux1001ux1004}
 
 Docker Network တခုရဲ့ အသေးစိတ်အချက် ကို ကြည့်ချင်ရင် inspect option ကို
 အသုံးပြုပြီး ကြည့်လို့ရပါတယ်။
@@ -851,16 +835,14 @@ $ docker network inspect my-bridge-network
 inspect option ကို အသုံးပြုပြီး Docker Network တခုရဲ့ အသေးစိတ်
 အချက်အလက်ကိုကြည့်မယ် ဆိုရင် အခုလိုမြင်ရမှာ ဖြစ်ပါတယ်။
 
-\includegraphics{file:///tmp/lu125437ibmwa.tmp/lu125437ibmwh_tmp_f503edd7d72922a4.png}
-
 \subsection{Docker Network ကို Remove
-ခြင်း။}\label{docker-network--remove-}
+ခြင်း။}\label{docker-network-ux1000-remove-ux1001ux1004}
 
 Docker network တွေကို remove လုပ်မယ်ဆိုရင် rm option ကို
 အသုံးပြုလို့ပါတယ်။
 
 တခုထက်ပိုတဲ့ docker network တွေကို remove လုပ်ချင်ရင် network ID
-$သို့မဟုတ်$ network name တွေကို space ခံပြီး အသုံးပြုပြီး remove
+(သို့မဟုတ်) network name တွေကို space ခံပြီး အသုံးပြုပြီး remove
 လုပ်လို့ရပါတယ်။
 
 \textbf{Example:}
@@ -875,8 +857,6 @@ $သို့မဟုတ်$ network name တွေကို space ခံပြ
 \begin{verbatim}
 $ docker network prune
 \end{verbatim}
-
-\pagebreak
 
 \section{Docker Networking Example}\label{docker-networking-example}
 
@@ -898,7 +878,8 @@ PHPMyAdmin -- A web based interface to manage MySQL server.
 အခု tutorial မှာတော့ အခြား MySQL server ကို access လုပ်ဖို့အတွက် အခြား
 container တခုမှာ run ထားတဲ့ PHPMyAdmin ကို အသုံးပြ ပြသသွားမှာ ဖြစ်ပါတယ်။
 
-\subsection{Network တခု Create လုပ်ခြင်း။}\label{network--create-}
+\subsection{Network တခု Create
+လုပ်ခြင်း။}\label{network-ux1010ux1001-create-ux101cux1015ux1001ux1004}
 
 ပထမဦးစွာ အနေဖြင့် docker network အသစ် တခု ကို Create လုပ်ဖြစ်ပါတယ်။
 my-bridge-network အမည်ရှိသော network အသစ်ကို အောက်ပါ comment အသုံးပြု
@@ -908,7 +889,8 @@ my-bridge-network အမည်ရှိသော network အသစ်ကို �
   $ docker network create -d bridge my-bridge-network
 \end{verbatim}
 
-\subsection{MySQL Container ကို Run ခြင်း။}\label{mysql-container--run-}
+\subsection{MySQL Container ကို Run
+ခြင်း။}\label{mysql-container-ux1000-run-ux1001ux1004}
 
 အခု ကျွန်တော် တို့ MySQL docker container အသစ် ကို Run မှာ ဖြစ်ပါတယ်။
 
@@ -934,7 +916,7 @@ $ docker inspect mysql | grep "IPAddress"
 \end{verbatim}
 
 \subsection{PHPMyAdmin Container ကို Run
-ခြင်း။}\label{phpmyadmin-container--run-}
+ခြင်း။}\label{phpmyadmin-container-ux1000-run-ux1001ux1004}
 
 အခု ကျွန်တော်တို့ Docker container အသစ်ဖြစ်တဲ့ phpmyadmin ကို run မှာ
 ဖြစ်ပါတယ်။
@@ -953,7 +935,7 @@ $ docker network inspect my-bridge-network
 \end{verbatim}
 
 \subsection{My-bridge-network Network ရဲ့ အချက်အလက် ကိုကြည့်ခြင်း
-။}\label{my-bridge-network-network---}
+။}\label{my-bridge-network-network-ux101b-ux1021ux1001ux1000ux1021ux101cux1000-ux1000ux1000ux100aux1001ux1004}
 
 အပေါ်မှာ ပြခဲ့တဲ့ containers နှစ်ခု ကို ကျွန်တော် တို့ my-bridge-network
 ထဲ ထည့်ပြီးသွား တဲ့ အတွက် လက်ရှိ my-bridge-network ရဲ့ setting ကို
@@ -964,8 +946,6 @@ $ docker network inspect my-bridge-network
 \end{verbatim}
 
 My-bridge-network ရဲ့ setting ကို ကြည့်ရင်တော့ အခုလိုတွေ့ရမှာဖြစ်ပါတယ်။
-
-\includegraphics{file:///tmp/lu125437ibmwa.tmp/lu125437ibmwh_tmp_f503edd7d72922a4.png}
 
 \subsection{Allow MySQL to PHPMyAdmin
 Host}\label{allow-mysql-to-phpmyadmin-host}
@@ -1010,16 +990,12 @@ PHPMyAdmin}\label{access-mysql-with-phpmyadmin}
 နောက်ဆုံးအနေဖြင့် ကျွန်တော် တို့ ရဲ့ docker host system က port 8080 မှ
 တဆင့် phpmyadmin web user interface ကို ချိတ်ဆက်လို့ ရသွားပါတယ်။
 
-\includegraphics{file:///tmp/lu125437ibmwa.tmp/lu125437ibmwh_tmp_55e578f0e4dc74a1.png}
-
 phpMyAdmin ကို MySQL ရဲ့ အချက်အလက်တွေ သုံးပြီး အပေါ်မှာ ပြထားတဲ့ အတိုင်း
 Login ဝင်ရန် အသုံးပြုလို့ရပါတယ်။
 
-\includegraphics{file:///tmp/lu125437ibmwa.tmp/lu125437ibmwh_tmp_2e5e564f470aece6.png}
-
-\pagebreak
-
 \section{Docker Compose}\label{docker-compose}
+
+\subsection{Docker Compose}\label{docker-compose-1}
 
 Docker Compose သည် Containers များကို Setup ပြုလုပ်ရာတွင် အသုံးပြုသည့်
 Tool တခုဖြစ်သည်။ Docker Compose ကိုသုံးခြင်းဖြင့် docker containers
@@ -1031,10 +1007,10 @@ Docker Compose ပြုလုပ်ရန် အဆင့် (3) ဆင့် �
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  Dockerfile တွင် သုံးမည့် Services များကို သတ်မှတ်ပေးရန်\\
+  Dockerfile တွင် သုံးမည့် Services များကို သတ်မှတ်ပေးရန်
 \item
   မိမိ Enviroment အတွက် သုံးမည့် Service and Application များကို
-  docker-file အဖြစ်ပြုလုပ်ပြီး sample.yml format ဖြင့် သိမ်းဆည်းရမည်။\\
+  docker-file အဖြစ်ပြုလုပ်ပြီး sample.yml format ဖြင့် သိမ်းဆည်းရမည်။
 \item
   Run docker-compose up Command ဖြင့် Docker Containers Services များကို
   Run နိုင်သည်။
@@ -1059,12 +1035,13 @@ $ curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-comp
 $ chmod +x /usr/local/bin/docker-compose
 \end{verbatim}
 
-\pagebreak
+\section{Docker Compose Example}\label{docker-compose-example}
 
-\section{Docker Compose Example File}\label{docker-compose-example-file}
+\subsection{Docker Compose Example
+File}\label{docker-compose-example-file}
 
 Docker Composer file သည် docker-compose.yml (format) ဖြစ်ပြီး အောက်တွင်
-Version 3 docker composer file ကို Sample ပြထားသည်။ ဤ File သည်\\Sample
+Version 3 docker composer file ကို Sample ပြထားသည်။ ဤ File သည် Sample
 ဖြစ်၍ Service တခုဖြစ်သည့် WEB Name တစ်ခုကိုသာ ပြထားသည်။
 
 \begin{verbatim}
@@ -1072,8 +1049,8 @@ version: '3'
 services:
     db:
         image: mysql
-        container_name: mysql_db
-        restart: always
+         container_name: mysql_db
+          restart: always
         environment:
             - MYSQL_ROOT_PASSWORD="secret"
     web:
@@ -1085,126 +1062,108 @@ services:
             - "8080:80"
 \end{verbatim}
 
+\subsection{Docker Compose CLI
+Reference}\label{docker-compose-cli-reference}
 
-\subsection{Docker Compose CLI Reference}\label{docker-compose-cli}
+Docker Compose နှင့် Docker Container များကို manage ပြုလုပ်ရန်အတွက်
+docker-compose command ကိုလည်း subcommand အဖြင့် provides လုပ်ပေးသည်။
 
-Docker Compose နှင့် Docker Container များကို manage  ပြုလုပ်ရန်အတွက် docker-compose command ကိုလည်း subcommand အဖြင့် provides လုပ်ပေးသည်။
+အောက်တွင့် Subcommand အချို့ကို လေ့လာနိုင်သည်။ သတိပြုရန်မှာ Container
+Name နှင့် Services name ကို မမှားဖို့ သတိပြုရမည်။
 
-အောက်တွင့် Subcommand အချို့ကို လေ့လာနိုင်သည်။ သတိပြုရန်မှာ Container Name နှင့် Services name ကို မမှားဖို့ သတိပြုရမည်။
-
-
-\subsubsection{build}\label{build}
-\begin{verbatim}
-build -
-\end{verbatim}
-build option ဖြင့် images များကို build လုပ်ပြီး Services များကို အသုံးပြုနိုင်သည်။
+\texttt{build -} build option ဖြင့် images များကို build လုပ်ပြီး
+Services များကို အသုံးပြုနိုင်သည်။
 
 \begin{verbatim}
-$ docker-compose build      ## Build all services 
-$ docker-compose build web  ## Build single service
+$ docker-compose build             ## Build all services
+$ docker-compose build web         ## Build single service
 \end{verbatim}
 
-
-\subsubsection{up}\label{up}
-\begin{verbatim}
-up –
-\end{verbatim}
-Current Directory အောက်ရှိ docker-composer.yml မှ docker container နှင့် Services များကို Create ပြုလုပ်ရန်ဖြစ်သည်။ ( -d ) Switch သည် Container ကို daemon mode ဖြင့် run စေရန်ဖြစ်သည်။
+\texttt{up –} Current Directory အောက်ရှိ docker-composer.yml မှ docker
+container နှင့် Services များကို Create ပြုလုပ်ရန်ဖြစ်သည်။ ( -d ) Switch
+သည် Container ကို daemon mode ဖြင့် run စေရန်ဖြစ်သည်။
 
 \begin{verbatim}
-$ docker-compose up -d      ## Create all containers 
-$ docker-compose up -d web  ## Create single container
+$ docker-compose up -d            ## Create all containers
+$ docker-compose up -d web        ## Create single container
 \end{verbatim}
 
-\subsubsection{down}\label{down}
-\begin{verbatim}
-down –
-\end{verbatim}
-
-ဤ Option သည် containers များ၏ Neteork, Container Service and Associate Images များကို ရပ်ရန်, ဖျက်ရန် အသုံးပြုနိုင်သည်။ 
+\texttt{down –} ဤ Option သည် containers များ၏ Neteork, Container Service
+and Associate Images များကို ရပ်ရန်, ဖျက်ရန် အသုံးပြုနိုင်သည်။
 
 \begin{verbatim}
-$ docker-compose down       ## Restart all containers 
-$ docker-compose down web   ## Restart single container
+$ docker-compose down           ## Restart all containers
+$ docker-compose down web       ## Restart single container
 \end{verbatim}
 
-\subsubsection{ps}\label{ps}
-\begin{verbatim}
-ps –
-\end{verbatim}
-Container များ၏ Services,Status and Port များ၏ process detail ကို သိနိုင်ရန် သုံးသည်။
-        
+\texttt{ps –} Container များ၏ Services,Status and Port များ၏ process
+detail ကို သိနိုင်ရန် သုံးသည်။
 
 \begin{verbatim}
 $ docker-compose ps
 \end{verbatim}
 
-\subsubsection{exec}\label{exec}
-\begin{verbatim}
-exec –
-\end{verbatim}
-Running Containers များကို exec ပြုလုပ်ရန်သုံးသည်။ For example, Web Service Run နေသည့် Container ကို list-file အနေဖြင့် ကြည့်ရန်..
+\texttt{exec –} Running Containers များကို exec ပြုလုပ်ရန်သုံးသည်။ For
+example, Web Service Run နေသည့် Container ကို list-file အနေဖြင့်
+ကြည့်ရန်..
 
 \begin{verbatim}
 $ docker-compose exec web ls -l
 \end{verbatim}
 
-\subsubsection{start}\label{start}
-\begin{verbatim}
-start -
-\end{verbatim}
-Containers များကို Start လုပ်ရန်သုံးသည်။
+\texttt{start -} Containers များကို Start လုပ်ရန်သုံးသည်။
 
 \begin{verbatim}
-$ docker-compose start      ## Start all containers 
-$ docker-compose start web  ## Start single container
+$ docker-compose start            ## Start all containers
+$ docker-compose start web        ## Start single container
 \end{verbatim}
 
-\subsubsection{stop}\label{stop}
-\begin{verbatim}
-stop -
-\end{verbatim}
-Running Containers များကို ရပ်လိုက်ရန် အသုံးပြုသည်။ 
+\texttt{stop -} Running Containers များကို ရပ်လိုက်ရန် အသုံးပြုသည်။
 
 \begin{verbatim}
-$ docker-compose stop      ## Stop all containers 
-$ docker-compose stop web  ## Stop single container
+$ docker-compose stop             ## Stop all containers
+$ docker-compose stop web         ## Stop single container
 \end{verbatim}
 
-\subsubsection{restart}\label{restatr}
-\begin{verbatim}
-restart –
-\end{verbatim}
-Containers များကို restart ပြုလုပ်ရန် သုံးသည်။
+\texttt{restart –}
 
 \begin{verbatim}
-$ docker-compose restart        ## Restart all containers 
-$ docker-compose restart web    ## Restart single container
+    Containers များကို restart ပြုလုပ်ရန် သုံးသည်။
+
+$ docker-compose restart           ## Restart all containers
+$ docker-compose restart web       ## Restart single container
 \end{verbatim}
 
-\subsubsection{paue}\label{pause}
-\begin{verbatim}
-pause -
-\end{verbatim}
-Running Containers များကို pause လုပ်ရန်သုံးသည်။
+\texttt{pause –} Containers များကို pause လုပ်ရန်သုံးသည်။
 
 \begin{verbatim}
-$ docker-compose pause      ## Start all paused containers 
-$ docker-compose pause web  ## Start single paused container
+$ docker-compose pause            ## Start all paused containers
+$ docker-compose pause web        ## Start single paused container
 \end{verbatim}
 
-\subsubsection{rm}\label{rm}
-\begin{verbatim}
-rm –
-\end{verbatim}
-Containers များကို ဖျက်ရန်, ဖယ်ရှားရန်သုံးသည်။
+\texttt{rm –} Containers များကို ဖျက်ရန်, ဖယ်ရှားရန်သုံးသည်။
 
 \begin{verbatim}
-$ docker-compose rm         ## Start all paused containers 
-$ docker-compose pause web  ## Start single paused container
+$ docker-compose rm               ## Start all paused containers
+$ docker-compose pause web        ## Start single paused container
 \end{verbatim}
 
-\pagebreak
+\section{Docker Compose Example
+(latest)}\label{docker-compose-example-latest}
+
+\subsubsection{Step 1 -- Create Directory Structure
+}\label{step-1-create-directory-structure}
+
+ပထမဆံုး အနေနဲ႔ docker compose အမည္နဲ႔ directory တစ္ခု တည္ေဆာက္ပါမယ္။
+ျပီးေတာ့ web application သိမ္းဖို႔ webapp အမည္ျဖင့္ directory
+ေဆာက္ပါမည္။ webapp directory ထဲမွာ web application ကိုစမ္းဖို႔ အတကြ္
+index.html ကို တည္ေဆာက္ပါမည္။
+
+\subsubsection{Step 2 -- Create Dockerfile for Webapp
+}\label{step-2-create-dockerfile-for-webapp}
+
+ျပီးေတာ့ web application အတကြ္ လုိအပ္ေသာ dockerfile ကို webapp directory
+ထဲမွာ ေဆာက္ပါမယ္။ အဲ directory ထဲမွာ
 
 \section{Docker Machine}\label{docker-machine}
 
@@ -1221,9 +1180,8 @@ Digital Ocean နှင့် Amazone စသည့် Platform များပ�
 \subsubsection{Install Docker Machine}\label{install-docker-machine}
 
 Docker Machine ကို install ပြုလုပ်ရန် အောက်တွင်ဖော်ပြထားပါသည်။ ပြီးတော့
-\href{https://github.com/docker/machine/releases}{\url{https://github.com/docker/machine/releases}}
-တွင်လည်း နောက်ဆုံးထွတ် Docker Machine Version ကို
-စစ်ဆေးရွေးချယ်နိုင်ပါသည်။
+\url{https://github.com/docker/machine/releases} တွင်လည်း နောက်ဆုံးထွတ်
+Docker Machine Version ကို စစ်ဆေးရွေးချယ်နိုင်ပါသည်။
 
 \begin{verbatim}
 ** Please Note: : " https://github.com/docker/machine/releases " 
@@ -1268,7 +1226,7 @@ $ chmod +x "$HOME/bin/docker-machine.exe"
 \subsubsection{Docker Machine Supported
 Drivers:}\label{docker-machine-supported-drivers}
 
-Docker Machime အတွက် Drivers များကို local and Cloud System များကို
+Docker Machine အတွက် Drivers များကို local and Cloud System များကို
 Provide လုပ်ပေးပါသည်။
 
 Dockerized hosts များ၏ ဖော်ပြပါ hosting Service များကို Docker Machine
@@ -1277,37 +1235,34 @@ Dockerized hosts များ၏ ဖော်ပြပါ hosting Service မျ
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  Amazon Web Services\\
+  Amazon Web Services
 \item
-  Microsoft Azure\\
+  Microsoft Azure
 \item
-  Digital Ocean\\
+  Digital Ocean
 \item
-  Exoscale\\
+  Exoscale
 \item
-  Google Compute Engine\\
+  Google Compute Engine
 \item
-  Generic\\
+  Generic
 \item
-  6Microsoft Hyper-V\\
+  6Microsoft Hyper-V
 \item
-  OpenStack\\
+  OpenStack
 \item
-  Rackspace\\
+  Rackspace
 \item
-  IBM Softlayer\\
+  IBM Softlayer
 \item
-  Oracle VirtualBox\\
+  Oracle VirtualBox
 \item
-  VMware vCloud Air\\
+  VMware vCloud Air
 \item
-  VMware Fusion\\
+  VMware Fusion
 \item
   VMware vSphere
 \end{itemize}
-
-
-\pagebreak
 
 \section{Docker Prune}\label{docker-prune}
 
@@ -1413,65 +1368,41 @@ $ docker volume prune -a -f
 Reference from
 \href{https://tecadmin.net/tutorial/docker/docker-prune-unused-objects/}{tecadmin}.
 
-\begin{center}\rule{3in}{0.4pt}\end{center}
-
-\subsection{description: Content and Translator
-List}\label{description-content-and-translator-list}
-
-
-\pagebreak
-
 \section{Sponsor}\label{sponsor}
 
 \subsection{Our Hero List}\label{our-hero-list}
 
-Becoming a kindly super hero:
+\textbf{Becoming a kindly super hero:}
 
-\begin{verbatim}
-$cat /etc/hero
+waiyanwinhtain\\\url{https://fb.com/waiyanwinhtain2016}
 
-#!/var/value
+khinchanmyaehtun\\\url{https://fb.com/profile.php?id=100010791125505}
 
-waiyanwinhtain 
-https://fb.com/waiyanwinhtain2016
+pyaephyoaung\\\url{https://fb.com/pyae.aung.7127}
 
-khinchanmyaehtun
-https://fb.com/profile.php?id=100010791125505
+zawyelwin\\\url{https://fb.com/zawye.lwin.9}
 
-pyaephyoaung 
-https://fb.com/pyae.aung.7127
+thutatun\\\url{https://fb.com/tamoeout.pisi}
 
-zawyelwin    
-https://fb.com/zawye.lwin.9
+kyawkyaw\\\url{https://fb.com/alin.thit.79}
 
-thutatun    
-https://fb.com/tamoeout.pisi
+nyinyisoewin\\\url{https://fb.com/NyiNyiSoeWin.nnsw}
 
-kyawkyaw    
-https://fb.com/alin.thit.79
+minthatti\\\url{https://fb.com/thuta.livingunderthesamebluesky}
 
-www.nyinyisoewin
-https://fb.com/NyiNyiSoeWin.nnsw
-
-minthatti
-https://fb.com/thuta.livingunderthesamebluesky
-
-sanjay
-https://fb.com/sanjay.ttg
-\end{verbatim}
+sanjay\\\url{https://fb.com/sanjay.ttg}
 
 \subsubsection{Original Content from
 TecAdmin.net}\label{original-content-from-tecadmin.net}
 
-\begin{verbatim}
-$cat original-article.sh
+\{\% code title=``original-article.sh'' \%\}
 
+\begin{verbatim}
+# Special Thank to TecAdmin
 lynx https://tecadmin.net/tutorial/docker/
 \end{verbatim}
 
-
-
-\subsubsection{}\label{section}
+\{\% endcode \%\}
 
 \subsubsection{Relative Content list}\label{relative-content-list}
 
@@ -1480,9 +1411,9 @@ lynx https://tecadmin.net/tutorial/docker/
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  \href{https://ubuntu-mm.net/umw/}{\url{https://ubuntu-mm.net/umw/}}\\
+  \url{https://ubuntu-mm.net/umw/}
 \item
-  \href{https://github.com/fossmyanmar/ubuntu-mm-wiki}{\url{https://github.com/fossmyanmar/ubuntu-mm-wiki}}
+  \url{https://github.com/fossmyanmar/ubuntu-mm-wiki}
 \end{itemize}
 
 \textbf{Docker Study Jams}
@@ -1490,9 +1421,15 @@ lynx https://tecadmin.net/tutorial/docker/
 \begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  \href{http://docker-study-jams.herokuapp.com/}{\url{http://docker-study-jams.herokuapp.com/}}\\
+  \url{http://docker-study-jams.herokuapp.com/}
 \item
-  \href{https://github.com/fossmyanmar/docker-kubernetes}{\url{https://github.com/fossmyanmar/docker-kubernetes}}
+  \url{https://github.com/fossmyanmar/docker-kubernetes}
 \end{itemize}
+
+\paragraph{PDF Download}\label{pdf-download}
+
+\url{https://github.com/fossmyanmar/docker-quick-start/raw/master/latex/Docker_Quick_Start-Pyidaungsu_Khayay.pdf}
+
 \end{document}
 \end{document}
+

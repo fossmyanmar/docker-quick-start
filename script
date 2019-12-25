@@ -1,0 +1,30 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Call All to One
+      run:  for x in $(ls | grep -i '[[:digit:]]'); do cat $x >> main.md ; echo -e "\pagebreak \n" >> main.md ; done
+    - name: Install Pandoc
+      run:  apt-get install pandoc -yqq
+    - name: Run All Markdown
+      run:  pandoc main.md -o maint.tex
+    - name: convert to TEX format
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+
+compile_pdf:
+  image: moss/xelatex
+  script:
+    -  xelatex your-latex-cv.tex
+  artifacts:
+    paths:
+      - my_file.pdf
+  
