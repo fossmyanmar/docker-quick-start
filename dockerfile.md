@@ -1,6 +1,6 @@
 # Dockerfile
 
-Working with Dockerfile
+## Working with Dockerfile
 
 Dockerfile ဆိုတာ နာမည်​အတိုင်းပဲ file တစ်​ခုပါပဲ။ သူ့ဆီမှာ တိကျတဲ့ instructions ​တွေပါမယ်​ အဲ့ instructions ​တွေနဲ့ ကိုယ်​လိုချင်​တဲ့ customized images ​တွေကို​ build လုပ်​ပါတယ်​ Default အ​နေနဲ့​တော့ နာမည်​ကို Dockerfile လို့ တ​ဝေမသိမ်း​ပေးရပါမယ်​။
 
@@ -42,5 +42,5 @@ $ docker build -t apacheimage .
 $ docker run -it -p 8080:80 apacheimage
 ```
 
-ဒီcommand နဲ့ ​ဆောက်​ပြီးသား image ကိုသုံးပြီး container တစ်​ခုတည်​​ဆောက်​ပါတယ်​။ `i`က interactive နဲ့ `t`က tty ကို ကိုယ်​စားပြုပါတယ်​။ `-p`ဆိုတာက​တော့ port သတ်​မှတ်​​ပေးတာပါ၊ ဒီ ဥပမာမှာဆို ကိုယ့် host system ရဲ့ port 8080 နဲ့ container ရဲ့ port 80ကို ချိတ်​​ပေးဖို့ သုံးထားတာကို ​တွေ့ရမှာပါ။ အ​ရှေ့က ကိုယ်​့ host systemရဲ့ port ကြားမှာ full coulmn `( : )` နဲ့ အ​နောက်​က container ရဲ့ port ကို​ရေးရမှာပါ။
+ဒီcommand နဲ့ ​ဆောက်​ပြီးသား image ကိုသုံးပြီး container တစ်​ခုတည်​​ဆောက်​ပါတယ်​။ `i`က interactive နဲ့ `t`က tty ကို ကိုယ်​စားပြုပါတယ်​။ `-p`ဆိုတာက​တော့ port သတ်​မှတ်​​ပေးတာပါ၊ ဒီ ဥပမာမှာဆို ကိုယ့် host system ရဲ့ port 8080 နဲ့ container ရဲ့ port 80ကို ချိတ်​​ပေးဖို့ သုံးထားတာကို ​တွေ့ရမှာပါ။ အ​ရှေ့က ကိုယ်​့ host systemရဲ့ port ကြားမှာ full column `( : )` နဲ့ အ​နောက်​က container ရဲ့ port ကို​ရေးရမှာပါ။
 
