@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2016.10.25)  25 DEC 2019 19:39
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2016.10.25)  25 DEC 2019 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -517,8 +517,7 @@ LaTeX Info: Redefining \upshape on input line 2208.
 . and font adjustment code:
 . 
 .................................................
-
-No file main.aux.
+ (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
@@ -541,6 +540,7 @@ LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 12.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 12.
+
 (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -559,12 +559,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 12.
 LaTeX Info: Redefining \pageref on input line 12.
 LaTeX Info: Redefining \nameref on input line 12.
+
+(./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *** you should *not* be loading the inputenc package
 *** XeTeX expects the source to be in UTF8 encoding
@@ -646,35 +645,816 @@ Overfull \hbox (47.66602pt too wide) in paragraph at lines 68--73
  []
 
 
-Overfull \hbox (27.19151pt too wide) in paragraph at lines 88--90
-[]\EU1/PR.ttf(0)/m/n/10 Command Line Interface (CLI) အဖြစ်​ဆောင်ရွက်ခြင်း စတ​တွ
-ေကို လုပ်​ဆောင်​ပေးပါတယ်။ 
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
  []
 
 
-LaTeX Warning: File `.gitbook/assets/screenshot-129.png' not found on input lin
-e 94.
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
 
-! Unable to load picture or PDF file '.gitbook/assets/screenshot-129.png'.
-<to be read again> 
-                   }
-l.94 ...aphics{.gitbook/assets/screenshot-129.png}
-                                                  
-? 
-! Emergency stop.
-<to be read again> 
-                   }
-l.94 ...aphics{.gitbook/assets/screenshot-129.png}
-                                                  
-End of file on the terminal!
+ []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 88.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 88.
+
+Overfull \hbox (27.17285pt too wide) in paragraph at lines 88--90
+[]\EU1/PR.ttf(0)/m/n/10 Command Line Interface $[]\OML/cmm/m/it/10 CLI[]$ \EU1/
+PR.ttf(0)/m/n/10 အဖြစ်​ဆောင်ရွက်ခြင်း စတ​တွေကို လုပ်​ဆောင်​ပေးပါတယ်။ 
+ []
+
+File: .gitbook/assets/screenshot-129.png Graphic file (type QTm)
+<use  ".gitbook/assets/screenshot-129.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 94--95
+ [][] 
+ []
+
+[2]
+Overfull \hbox (1.90918pt too wide) in paragraph at lines 105--112
+\EU1/PR.ttf(0)/m/n/10 Docker container တစ်ခုဟာ application တစ်ခု packaging လုပ်
+ဖို့၊ running လုပ်ဖို့ သီးသန့်
+ []
+
+
+Overfull \hbox (13.74512pt too wide) in paragraph at lines 105--112
+\EU1/PR.ttf(0)/m/n/10 environment တစ်ခု အဖြစ်​ရှိ​တာ ဖြစ်ပါတယ်။ပိုမွန်​မြန်ဆန်​
+ကောင်းမွန်တဲ့ computing ကိုရနိုင်ဖို့
+ []
+
+
+Overfull \hbox (31.65527pt too wide) in paragraph at lines 105--112
+\EU1/PR.ttf(0)/m/n/10 tainers ​တွေကိုပဲ run ထားတဲ့ host က္​နေ တစ်ခြား host တစ်ခ
+ုဆီကို ​ပြောင်း​​ရွှေ့ နိုင်ဦးမှာဖြစ်ပါတယ်။ 
+ []
+
+[3]
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 129
+.
+ (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (126.75pt too wide) in paragraph at lines 149--150
+[]\EU1/lmtt/m/n/10 text $ sudo add-apt-repository "deb [arch=amd64] https://dow
+nload.docker.com/linux/ubuntu
+ []
+
+[4]
+Overfull \hbox (99.5pt too wide) in paragraph at lines 244--244
+[]  \EU1/lmtt/m/n/10 attach      Attach local standard input, output, and error
+ streams to a running container[] 
+ []
+
+
+Overfull \hbox (24.25pt too wide) in paragraph at lines 244--244
+[]  \EU1/lmtt/m/n/10 cp          Copy files/folders between a container and the
+ local filesystem[] 
+ []
+
+
+Overfull \hbox (47.0pt too wide) in paragraph at lines 244--244
+[]  \EU1/lmtt/m/n/10 diff        Inspect changes to files or directories on a c
+ontainer's filesystem[] 
+ []
+
+
+Overfull \hbox (27.75pt too wide) in paragraph at lines 244--244
+[]  \EU1/lmtt/m/n/10 import      Import the contents from a tarball to create a
+ filesystem image[] 
+ []
+
+
+Overfull \hbox (66.25pt too wide) in paragraph at lines 244--244
+[]  \EU1/lmtt/m/n/10 save        Save one or more images to a tar archive (stre
+amed to STDOUT by default)[] 
+ []
+
+
+Overfull \hbox (29.5pt too wide) in paragraph at lines 244--244
+[]  \EU1/lmtt/m/n/10 stats       Display a live stream of container(s) resource
+ usage statistics[] 
+ []
+
+[5]
+Overfull \hbox (48.75pt too wide) in paragraph at lines 244--244
+[]  \EU1/lmtt/m/n/10 wait        Block until one or more containers stop, then 
+print their exit codes[] 
+ []
+
+
+Overfull \hbox (7.65137pt too wide) in paragraph at lines 246--250
+[]\EU1/PR.ttf(0)/m/n/10 ဒါပေမယ့် docker ကို ထည့်သွင်းလိုက်ချိန်မှာ root user အန
+ေနဲ့သာ docker နဲ့ သတ်ဆိုင်တဲ့
+ []
+
+
+Overfull \hbox (70.88379pt too wide) in paragraph at lines 255--260
+\EU1/PR.ttf(0)/m/n/10 docker group ထဲကို လက်ရှိ user ကို add ပေးလိုက်ခြင်းဖြစ် 
+sudo command ကို အမြဲရိုက်ထည့်ပေးစရာမလိုပဲ
+ []
+
+[6]
+Overfull \hbox (11.24023pt too wide) in paragraph at lines 280--286
+\EU1/PR.ttf(0)/m/n/10 Docker container ဆိုတာ docker image တစ်ခုကို run လိုက်တဲ့
+အခါမှာ တည်ဆောက်လိုက်တဲ့
+ []
+
+
+Overfull \hbox (87.0459pt too wide) in paragraph at lines 280--286
+\EU1/PR.ttf(0)/m/n/10 instance လေးတစ်ခုပဲ ဖြစ်ပါတယ်။ Container တစ်လုံးဟာ applic
+ation တွေကို အလုပ်လုပ်စေဖို့အတွက်လိုအပ်တဲ့
+ []
+
+
+Overfull \hbox (10.64363pt too wide) in paragraph at lines 298--302
+\EU1/PR.ttf(0)/m/n/10 container တစ်လုံးကို တည်ဆောက်ပါမယ်။ -it ဆိုတဲ့ option က p
+seudo-TTY အသုံးပြုလို့ရတဲ့
+ []
+
+
+Overfull \hbox (42.07031pt too wide) in paragraph at lines 298--302
+\EU1/PR.ttf(0)/m/n/10 interactive session တစ်ခုကို ပေးပါတယ်။ အဲ့ဒီကနေ container
+ shell ကို ချက်ချင်းသုံးလို့ရပါလိမ့်မယ်။ 
+ []
+
+File: .gitbook/assets/2_run_ti_centos.png Graphic file (type QTm)
+<use  ".gitbook/assets/2_run_ti_centos.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 309--310
+ [][] 
+ []
+
+
+Overfull \hbox (9.70215pt too wide) in paragraph at lines 312--316
+[]\EU1/PR.ttf(0)/m/n/10 ကျွန်တော်တို့ customized လုပ်ထားတဲ့ ssh access enabled 
+လုပ်ထားတဲ့ Ubuntu docker
+ []
+
+
+Overfull \hbox (6.1377pt too wide) in paragraph at lines 323--328
+\EU1/PR.ttf(0)/m/n/10 docker ps command ကိုသုံးပါတယ်။ အဲဒီ command က ရပ်ထားတဲ့ 
+container တွေကိုတော့
+ []
+
+
+Overfull \hbox (27.12402pt too wide) in paragraph at lines 323--328
+\EU1/PR.ttf(0)/m/n/10 list ထုတ်ပြမှာ မဟုတ်ပါဘူး။ အဲ့ဒါက Container ID, Container
+ နာမည် နဲ့ container နဲ့ပတ်သက်တဲ့
+ []
+
+[7]
+File: .gitbook/assets/4a_ps-large-resolution.png Graphic file (type QTm)
+ <use  ".gitbook/assets/4a_ps-large-resolution.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 342--343
+ [][] 
+ []
+
+
+Overfull \hbox (44.30664pt too wide) in paragraph at lines 348--353
+\EU1/PR.ttf(0)/m/n/10 Docker container တစ်လုံးနဲ့ပတ်သက်တဲ့ အသေးစိတ်အချက်အလက်အား
+လုံးကို ရှာချင်တဲ့အခါမှာတော့
+ []
+
+
+Overfull \hbox (24.2627pt too wide) in paragraph at lines 348--353
+\EU1/PR.ttf(0)/m/n/10 docker inspect command ကို အသုံးပြုပါတယ်။ Container ရဲ့ အ
+သေးစိတ်အချက်အလက်တွေကို
+ []
+
+
+Overfull \hbox (8.93953pt too wide) in paragraph at lines 360--364
+\EU1/PR.ttf(0)/m/n/10 tainer ရဲ့ container ID သို့မဟုတ် container နာမည်ကို တိတိ
+ကျကျထည့်ပေးရမှာဖြစ်ပါတယ်။ 
+ []
+
+[8]
+Overfull \hbox (95.03906pt too wide) in paragraph at lines 376--383
+\EU1/PR.ttf(0)/m/n/10 Docker image ဆိုတာကတော့ container တစ်ခုမှာ လိုချင်တဲ့ app
+lication တွေ ကိုအသုံးပြုလို့ရအောင်ပြုလုပ်ထားတဲ့
+ []
+
+
+Overfull \hbox (34.49707pt too wide) in paragraph at lines 376--383
+\EU1/PR.ttf(0)/m/n/10 တစ်ခြားသူတွေနဲ့လည်း မျှဝေအသုံးပြုနိုင်ပါသေးတယ်။ ဆိုလိုတာက
+တော့ တစ်ယောက်ပြုလုပ်ထားတဲ့
+ []
+
+
+Overfull \hbox (18.53027pt too wide) in paragraph at lines 376--383
+\EU1/PR.ttf(0)/m/n/10 image ကိုသုံးပြီး နောက်တစ်ယောက်က ထပ်တူကျတဲ့ container တစ်
+ခုကို အသုံးပြုနိုင်တာမျိုးပါ။ 
+ []
+
+
+Overfull \hbox (66.44531pt too wide) in paragraph at lines 389--391
+\EU1/PR.ttf(0)/m/n/10 docker images ဆိုတဲ့ command နဲ့ ကိုယ့်စနစ်ထဲက အသုံးပြုလိ
+ု့ရတဲ့ image တွေကိုစစ်ကြည့်လို့ရနိုင်ပါတယ်။ 
+ []
+
+File: .gitbook/assets/1_ls.png Graphic file (type QTm)
+<use  ".gitbook/assets/1_ls.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 398--399
+ [][] 
+ []
+
+
+Overfull \hbox (47.59766pt too wide) in paragraph at lines 403--406
+\EU1/PR.ttf(0)/m/n/10 docker search ဆိုတဲ့ command ကတော့ []docker hub[] ကနေ လို
+ချင်တဲ့ image ကိုရှာတဲ့အခါသုံးပါတယ်။
+ []
+
+File: .gitbook/assets/2_search-large-resolution.png Graphic file (type QTm)
+<use  ".gitbook/assets/2_search-large-resolution.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 413--414
+ [][] 
+ []
+
+File: .gitbook/assets/3_pull_wordpress.png Graphic file (type QTm)
+<use  ".gitbook/assets/3_pull_wordpress.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 428--429
+ [][] 
+ []
+
+[9]
+File: .gitbook/assets/4_rmi.png Graphic file (type QTm)
+ <use  ".gitbook/assets/4_rmi.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 442--443
+ [][] 
+ []
+
+[10]
+Overfull \hbox (8.93555pt too wide) in paragraph at lines 451--455
+\EU1/PR.ttf(0)/m/n/10 Dockerfile ဆိုတာ နာမည်​အတိုင်းပဲ file တစ်​ခုပါပဲ။ သူ့ဆီမှ
+ာ တိကျတဲ့ instructions ​တွေပါမယ်​
+ []
+
+File: .gitbook/assets/1_docker_build.png Graphic file (type QTm)
+<use  ".gitbook/assets/1_docker_build.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 465--466
+ [][] 
+ []
+
+File: .gitbook/assets/3c_apacheimage_build.png Graphic file (type QTm)
+<use  ".gitbook/assets/3c_apacheimage_build.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 497--498
+ [][] 
+ []
+
+[11]
+Overfull \hbox (3.19824pt too wide) in paragraph at lines 511--518
+[]\EU1/PR.ttf(0)/m/n/10 ဒီcommand နဲ့ ​ဆောက်​ပြီးသား image ကိုသုံးပြီး containe
+r တစ်​ခုတည်​​ဆောက်​ပါတယ်​။
+ []
+
+
+Overfull \hbox (15.61426pt too wide) in paragraph at lines 511--518
+\EU1/lmtt/m/n/10 i\EU1/PR.ttf(0)/m/n/10 က interactive နဲ့ \EU1/lmtt/m/n/10 t\EU
+1/PR.ttf(0)/m/n/10 က tty ကို ကိုယ်​စားပြုပါတယ်​။ \EU1/lmtt/m/n/10 -p\EU1/PR.ttf
+(0)/m/n/10 ဆိုတာက​တော့ port သတ်​မှတ်​​ပေးတာပါ၊
+ []
+
+[12]
+Overfull \hbox (43.0344pt too wide) in paragraph at lines 535--538
+\EU1/PR.ttf(0)/m/n/10 ubuntu command ​တွေ သုံးလို့ရမဲ့ container တစ်​လုံးလိုချင
+်​တာဆိုရင်​ \EU1/lmtt/m/n/10 FROM ubuntu \EU1/PR.ttf(0)/m/n/10 ဆိုပြီးသုံးရမှာပ
+ါ။ 
+ []
+
+
+Overfull \hbox (18.0127pt too wide) in paragraph at lines 539--543
+\EU1/PR.ttf(0)/m/n/10 ကို ယူသုံးသွားမှာပါ အဲ့လိုမှမဟုတ်​ဘူး latest လိုချင်​တာမဟ
+ုတ်​ဘူး ကိုယ်​လိုချင်​တာ သက်​သက်​ဆို
+ []
+
+Missing character: There is no ​ in font [lmmono10-regular]!
+
+Overfull \hbox (19.59668pt too wide) in paragraph at lines 546--549
+\EU1/PR.ttf(0)/m/n/10 ဒါက​တော့ နာမည်​အတိုင်​းပဲ label တပ်​တာပါ။ \EU1/lmtt/m/n/1
+0 Maintainer addres​s,vendor name,image
+ []
+
+
+Overfull \hbox (10.9668pt too wide) in paragraph at lines 556--560
+\EU1/PR.ttf(0)/m/n/10 ​ရေးတာကိုပါ။ Image build တဲ့အချိန်​မှာ စာ​ကြောင်းတစ်​​ကြေ
+ာင်းကို layer တစ်​ခု ​ဆောက်​တာပါ
+ []
+
+Missing character: There is no ​ in font [lmmono10-regular]!
+Missing character: There is no ​ in font [lmmono10-regular]!
+
+Overfull \hbox (51.41113pt too wide) in paragraph at lines 576--578
+[]\EU1/PR.ttf(0)/m/n/10 ဒီ​နေရာမှာလဲ အ​ပေါ်ကလို တစ်​​ကြောင်းထဲဖြစ်​​အောင်​ ​ရေး
+သင့်ပါတယ်​။ Layer နည်း​လေ​ကောင်း​လေပါ။ 
+ []
+
+[13]
+Overfull \hbox (49.3457pt too wide) in paragraph at lines 599--601
+[]\EU1/PR.ttf(0)/m/n/10 ဒုတိယ command က​တော့ host ရဲ့ .conf extension file အားလ
+ုံးကို image ရဲ့ /etc/apache2/sites-
+ []
+
+
+Overfull \hbox (59.91895pt too wide) in paragraph at lines 604--607
+\EU1/PR.ttf(0)/m/n/10 ဒိ directive ကို​တော့ dockerfile ရဲ့အခြား​သော directives 
+​တွေဖြစ်​တဲ့ \EU1/lmtt/m/n/10 RUN,CMD,ENTRYPOINT,COPY,ADD
+ []
+
+
+Overfull \hbox (15.92683pt too wide) in paragraph at lines 614--616
+\EU1/PR.ttf(0)/m/n/10 CMD directive ကို​တော့ image မှာပါတဲ့ service,software ​တ
+ွေကို container launch လုပ်​​တာနဲ့
+ []
+
+
+Overfull \hbox (15.7657pt too wide) in paragraph at lines 651--654
+\EU1/PR.ttf(0)/m/n/10 ​နောက်​ဆုံး အ​နေနဲ့​တော့ VOLUME directive ပါ။ သူ့ကို​တော့
+ mount point create ဖို့ သုံးပါတယ်​။
+ []
+
+[14] [15]
+Overfull \hbox (33.13965pt too wide) in paragraph at lines 665--669
+\EU1/PR.ttf(0)/m/n/10 Docker containers တွေထဲမှာဆိုရင် servicesတွေက သီးခြား por
+t တစ်ခုစီပေါ်မှာ run လေ့ရှိပါတယ်။
+ []
+
+
+Overfull \hbox (16.78223pt too wide) in paragraph at lines 672--675
+\EU1/PR.ttf(0)/m/n/10 အောက်‌ကပုံကိုကြည့်ပါ။ Docker host ထဲမှာ container နှစ်လုံ
+း run နေတာကို တွေ့ရပါလိမ့်မယ်။
+ []
+
+
+Overfull \hbox (28.83789pt too wide) in paragraph at lines 672--675
+\EU1/PR.ttf(0)/m/n/10 ပထမတစ်ခုကတော့ website တွေ runနေတဲ့ Apache container ဖြစ်ပ
+ြီးတော့ ဒုတိယတစ်ခုကတော့
+ []
+
+File: .gitbook/assets/screenshot-132.png Graphic file (type QTm)
+<use  ".gitbook/assets/screenshot-132.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 678--679
+ [][] 
+ []
+
+
+Overfull \hbox (109.85352pt too wide) in paragraph at lines 681--685
+[]\EU1/PR.ttf(0)/m/n/10 အခုကျွန်တော်တို့ port 80 Apache container ပေါမှာ run နေ
+တယ် website ကိုဝင်ရောက်ကြည့်ရှုဖို့လိုအပ်နေပါတယ်။
+ []
+
+
+Overfull \hbox (75.28719pt too wide) in paragraph at lines 686--691
+\EU1/PR.ttf(0)/m/n/10 အခုကျွန်တော်တို့ Host machine ရဲ့ port 6603 ကိုသုံးပြီး M
+ySQL container ကိုတိုက်ရိုက်ဆက်သွယ်နိုင်ပါတယ်။ 
+ []
+
+[16]
+Overfull \hbox (4.0625pt too wide) in paragraph at lines 702--705
+\EU1/PR.ttf(0)/m/n/10 ဒီဥပမာမှာတော့ GitHub ပေါ်မှာရှိတယ် ကျွန်တော်တို့ရဲ နမူနာ 
+project ကိုသုံးရမှာဖြစ်ပါတယ်။
+ []
+
+
+Overfull \hbox (11.16211pt too wide) in paragraph at lines 726--730
+[]\EU1/PR.ttf(0)/m/n/10 အခု Web browser ထဲမှာ host machine ip နဲ့ port 8080 သုံ
+းပြီး access လုပ်မယ်ဆိုလိုရှိရင်
+ []
+
+
+Overfull \hbox (4.92188pt too wide) in paragraph at lines 726--730
+\EU1/PR.ttf(0)/m/n/10 page တစ်မျက်မှာပေါ်လာပါလိမ့်မယ်။ ကျွန်တော့်ရဲ host machin
+e ip ကတော့ 192.168.1.237
+ []
+
+File: .gitbook/assets/docker_file_and_docker_port.png Graphic file (type QTm)
+<use  ".gitbook/assets/docker_file_and_docker_port.png" >
+Overfull \hbox (85.00462pt too wide) in paragraph at lines 733--734
+ [][] 
+ []
+
+
+Overfull \hbox (29.85352pt too wide) in paragraph at lines 746--749
+[]\EU1/PR.ttf(0)/m/n/10 တစ်ကယ်လို့ host machine ရဲ့ interface တစ်ခုခုနဲ့ bind ခ
+ျင်တယ်ဆိုလို့ရှိရင် အောက်ကအတိုင်း
+ []
+
+[17]
+Overfull \hbox (33.0pt too wide) in paragraph at lines 753--753
+[]\EU1/lmtt/m/n/10 $ docker run -it -p 192.168.1.111:8080:80,92.168.1.111:8081:
+443 image_name[] 
+ []
+
+[18]
+Overfull \hbox (0.41972pt too wide) in paragraph at lines 761--765
+\EU1/PR.ttf(0)/m/n/10 age လုပ်ဆောင်ချက်တွေ ကို ထောက်ပံ့ပေးထားပါတယ်။ \EU1/PR.ttf
+(0)/bx/n/10 docker network command
+ []
+
+
+Overfull \hbox (31.0664pt too wide) in paragraph at lines 778--780
+\EU1/lmtt/m/n/10 ls \EU1/PR.ttf(0)/m/n/10 option ကို အသုံးပြုပြီး docker host ပ
+ေါ်မှာ ရှိတဲ့ docker network တွေ ကို List လုပ်လို့ရပါတယ်။ 
+ []
+
+Missing character: There is no သ in font cmmi10!
+Missing character: There is no ိ in font cmmi10!
+Missing character: There is no ု in font cmmi10!
+Missing character: There is no ့ in font cmmi10!
+Missing character: There is no မ in font cmmi10!
+Missing character: There is no ဟ in font cmmi10!
+Missing character: There is no ု in font cmmi10!
+Missing character: There is no တ in font cmmi10!
+Missing character: There is no ် in font cmmi10!
+
+Overfull \hbox (40.6836pt too wide) in paragraph at lines 807--812
+\EU1/PR.ttf(0)/m/n/10 docker network နဲ့ ချိတ်ဆက်နိုင်ပါတယ်။ Container တစ်ခုကို
+ Network နဲ့ တစ်ချိန် ချိတ်ဆက်ထားရုံနဲ့
+ []
+
+
+Overfull \hbox (34.57031pt too wide) in paragraph at lines 807--812
+\EU1/PR.ttf(0)/m/n/10 အခြား container များကိုလဲ တူညီတဲ့ Network တခုတည်းပေါ်မှာ 
+ဆက်သွယ်လုပ်ဆောင်လို့ရပါတယ်။ 
+ []
+
+
+Overfull \hbox (2.83203pt too wide) in paragraph at lines 826--826
+[]\EU1/PR.ttf(0)/bx/n/12 Docker Network နှင့် Container ကို disconnect လုပ်ခြင်
+း။ 
+ []
+
+
+Overfull \hbox (2.42188pt too wide) in paragraph at lines 828--830
+\EU1/PR.ttf(0)/m/n/10 သင့်အနေနဲ့ Network တခုပေါ်ကနေ container ကို disconnect လု
+ပ်ချင်ရင် အောက်ပါ com-
+ []
+
+[19]
+Overfull \hbox (4.1211pt too wide) in paragraph at lines 846--848
+\EU1/PR.ttf(0)/m/n/10 Docker Network တခုရဲ့ အသေးစိတ်အချက် ကို ကြည့်ချင်ရင် insp
+ect option ကို အသုံးပြုပြီး
+ []
+
+
+Overfull \hbox (39.1748pt too wide) in paragraph at lines 853--855
+[]\EU1/PR.ttf(0)/m/n/10 inspect option ကို အသုံးပြုပြီး Docker Network တခုရဲ့ အ
+သေးစိတ် အချက်အလက်ကိုကြည့်မယ်
+ []
+
+Missing character: There is no သ in font cmmi10!
+Missing character: There is no ိ in font cmmi10!
+Missing character: There is no ု in font cmmi10!
+Missing character: There is no ့ in font cmmi10!
+Missing character: There is no မ in font cmmi10!
+Missing character: There is no ဟ in font cmmi10!
+Missing character: There is no ု in font cmmi10!
+Missing character: There is no တ in font cmmi10!
+Missing character: There is no ် in font cmmi10!
+
+Overfull \hbox (0.15625pt too wide) in paragraph at lines 872--874
+[]\EU1/PR.ttf(0)/m/n/10 သင့်အနေနဲ့ docker ပေါ်က အသုံးမပြုတော့တဲ့ network အားလုံ
+းကို remove လုပ်ချင်ရင်
+ []
+
+[20]
+Overfull \hbox (31.00098pt too wide) in paragraph at lines 889--891
+[]\EU1/PR.ttf(0)/m/n/10 ကျွန်တော် တို့ ဒီ Tutorial မှာတော့ docker containers နှ
+စ်ခုနဲ့ docker network အသေးစားလေး
+ []
+
+
+Overfull \hbox (4.93652pt too wide) in paragraph at lines 903--906
+\EU1/PR.ttf(0)/m/n/10 ပထမဦးစွာ အနေဖြင့် docker network အသစ် တခု ကို Create လုပ်
+ဖြစ်ပါတယ်။ my-bridge-
+ []
+
+
+Overfull \hbox (5.97656pt too wide) in paragraph at lines 903--906
+\EU1/PR.ttf(0)/m/n/10 network အမည်ရှိသော network အသစ်ကို အောက်ပါ comment အသုံးပ
+ြု ပြီး create လုပ်ပါ။ 
+ []
+
+
+Overfull \hbox (9.99023pt too wide) in paragraph at lines 915--917
+[]\EU1/PR.ttf(0)/m/n/10 Default root user password အသစ်ကို သတ်မှတ်ဖို့အတွက် MYS
+QL_ROOT_PASSWORD
+ []
+
+
+Overfull \hbox (45.25pt too wide) in paragraph at lines 920--920
+[]\EU1/lmtt/m/n/10 $ docker run --name mysql -e MYSQL_ROOT_PASSWORD=secret -d m
+ysql/mysql-server[] 
+ []
+
+
+Overfull \hbox (6.14258pt too wide) in paragraph at lines 922--924
+[]\EU1/PR.ttf(0)/m/n/10 Container တခု create ပြီးနောက် စောစော က ကျွန်တော်တို့ c
+reate ထားတဲ့ my-bridge-
+ []
+
+
+Overfull \hbox (2.3566pt too wide) in paragraph at lines 929--931
+[]\EU1/PR.ttf(0)/m/n/10 နောက် တဆင့် အနေနဲ့ MySQL container ရဲ့ IP address အသစ် 
+ကိုကြည့်မှာဖြစ်ပါတယ်။ 
+ []
+
+
+Overfull \hbox (104.75pt too wide) in paragraph at lines 947--947
+[]\EU1/lmtt/m/n/10 $ docker run --name phpmyadmin -d -e PMA_HOST=172.21.0.2 -p 
+8080:80 phpmyadmin/phpmyadmin[] 
+ []
+
+
+Overfull \hbox (35.74402pt too wide) in paragraph at lines 956--956
+[]\EU1/PR.ttf(0)/bx/n/12 My-bridge-network Network ရဲ့ အချက်အလက် ကိုကြည့်ခြင်း
+ []
+
+[21]
+Overfull \hbox (16.3077pt too wide) in paragraph at lines 976--978
+[]\EU1/PR.ttf(0)/m/n/10 လုပ်ပေးရမှာ ဖြစ်ပါတယ်။ MySQL container shell access ရဖိ
+ု့အတွက် အောက်မှာ ပြထားတဲ့
+ []
+
+
+Overfull \hbox (10.55664pt too wide) in paragraph at lines 990--993
+[]\EU1/PR.ttf(0)/m/n/10 phpmyadmin host ip address နဲ့ user အသစ် create လုပ်လို
+က်ပါ။ ဒီ tutorial ထဲမှာတော့
+ []
+
+
+Overfull \hbox (59.25pt too wide) in paragraph at lines 1003--1003
+[]\EU1/lmtt/m/n/10 mysql> GRANT ALL on *.* to 'dbuser'****@****'172.21.0.3' ide
+ntified by 'secret';[] 
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 1030--1032
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1032--1035
+
+ []
+
+
+Overfull \hbox (28.63477pt too wide) in paragraph at lines 1044--1047
+\EU1/PR.ttf(0)/m/n/10 Docker Compose ကို Install ပြုလုပ်ရန် []$[][][][][][] [] 
+[] [] [][][][][][] [] [][][] [] [][][][][][] [] [][][][][][][] [] [][][][][][][
+][][]$[]
+ []
+
+
+Overfull \hbox (362.0pt too wide) in paragraph at lines 1056--1056
+[]\EU1/lmtt/m/n/10 $ curl -L https://github.com/docker/compose/releases/downloa
+d/1.16.1/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose[]
  
+ []
+
+[23]
+Overfull \hbox (5.07324pt too wide) in paragraph at lines 1089--1091
+[]\EU1/PR.ttf(0)/m/n/10 အောက်တွင့် Subcommand အချို့ကို လေ့လာနိုင်သည်။ သတိပြုရန
+်မှာ Container Name
+ []
+
+
+Overfull \hbox (19.49707pt too wide) in paragraph at lines 1092--1094
+[]\EU1/lmtt/m/n/10 build - \EU1/PR.ttf(0)/m/n/10 build option ဖြင့် images များ
+ကို build လုပ်ပြီး Services များကို အသုံးပြုနိုင်သည်။ 
+ []
+
+[24]
+Missing character: There is no မ in font [lmmono10-regular]!
+Missing character: There is no ျ in font [lmmono10-regular]!
+Missing character: There is no ာ in font [lmmono10-regular]!
+Missing character: There is no း in font [lmmono10-regular]!
+Missing character: There is no က in font [lmmono10-regular]!
+Missing character: There is no ိ in font [lmmono10-regular]!
+Missing character: There is no ု in font [lmmono10-regular]!
+Missing character: There is no ပ in font [lmmono10-regular]!
+Missing character: There is no ြ in font [lmmono10-regular]!
+Missing character: There is no ု in font [lmmono10-regular]!
+Missing character: There is no လ in font [lmmono10-regular]!
+Missing character: There is no ု in font [lmmono10-regular]!
+Missing character: There is no ပ in font [lmmono10-regular]!
+Missing character: There is no ် in font [lmmono10-regular]!
+Missing character: There is no ရ in font [lmmono10-regular]!
+Missing character: There is no န in font [lmmono10-regular]!
+Missing character: There is no ် in font [lmmono10-regular]!
+Missing character: There is no သ in font [lmmono10-regular]!
+Missing character: There is no ု in font [lmmono10-regular]!
+Missing character: There is no ံ in font [lmmono10-regular]!
+Missing character: There is no း in font [lmmono10-regular]!
+Missing character: There is no သ in font [lmmono10-regular]!
+Missing character: There is no ည in font [lmmono10-regular]!
+Missing character: There is no ် in font [lmmono10-regular]!
+Missing character: There is no ။ in font [lmmono10-regular]!
+ [25]
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1176.
+
+
+Overfull \hbox (39.55078pt too wide) in paragraph at lines 1178--1182
+\EU1/PR.ttf(0)/m/n/10 webapp directory ထဲတွင် web application ကိုစမ်းရန် အတက်ွ 
+index.html ကို တည်ဆောက်ပါမည်။ 
+ []
+
+
+Overfull \hbox (77.39746pt too wide) in paragraph at lines 1191--1195
+\EU1/PR.ttf(0)/m/n/10 ပြီးနောက် web application အတက်ွ လိုအပ်သော dockerfile ကို 
+webapp directory ထဲမှာတည်ဆောက်ပါမည်။
+ []
+
+[26]
+Overfull \hbox (93.00003pt too wide) in paragraph at lines 1304--1304
+ []\EU1/lmtt/m/n/10 Digest: sha256:523d6fbc97954e9f77231bf54bfcfbbdd48053498874
+77fbac4a63dc735d777d[] 
+ []
+
+[27]
+Overfull \hbox (25.45898pt too wide) in paragraph at lines 1326--1328
+[]\EU1/PR.ttf(0)/m/n/10 ပြီးလျှင် အောက်ပါ command များကို သုံး၍ webapp containe
+r ကို ပြန်လည် တည်ဆောက်ပြီး
+ []
+
+[28]
+Overfull \hbox (367.25pt too wide) in paragraph at lines 1365--1365
+[]\EU1/lmtt/m/n/10 $ curl -L https://github.com/docker/machine/releases/downloa
+d/v0.12.2/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine[
+] 
+ []
+
+
+Overfull \hbox (367.25pt too wide) in paragraph at lines 1376--1376
+[]\EU1/lmtt/m/n/10 $ curl -L https://github.com/docker/machine/releases/downloa
+d/v0.12.2/docker-machine-`uname -s`-`uname -m` > /usr/local/bin/docker-machine[
+] 
+ []
+
+
+Overfull \hbox (17.45529pt too wide) in paragraph at lines 1383--1384
+ []\EU1/PR.ttf(0)/bx/n/10 For Windows Systmes with Git Bash:[] \EU1/PR.ttf(0)/m
+/n/10 Windows 10 နှင့် အထက်တွင်သာ အသုံးပြုရန်
+ []
+
+
+Overfull \hbox (360.25pt too wide) in paragraph at lines 1391--1391
+[]\EU1/lmtt/m/n/10 $ curl -L https://github.com/docker/machine/releases/downloa
+d/v0.12.2/docker-machine-Windows-x86_64.exe > "$HOME/bin/docker-machine.exe"[] 
+
+ []
+
+[29]
+Overfull \hbox (19.46289pt too wide) in paragraph at lines 1401--1403
+[]\EU1/PR.ttf(0)/m/n/10 Dockerized hosts များ၏ ဖော်ပြပါ hosting Service များကို
+ Docker Machine တခုတည်းဖြင့်
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1407--1409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1409--1411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1411--1413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1415
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1415--1417
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1417--1419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1421
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1423
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1423--1425
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1431--1433
+
+ []
+
+[30]
+Overfull \hbox (10.83984pt too wide) in paragraph at lines 1442--1448
+\EU1/PR.ttf(0)/m/n/10 ပုံမှန်ဆို docker ကသူအသုံးမပြုတော့တဲ့ objects ‌တွေကို သူ့
+ကိုဖျက်ပါလို့မပြောမချင်း မဖျက်ဘဲ
+ []
+
+
+Overfull \hbox (59.34277pt too wide) in paragraph at lines 1442--1448
+\EU1/PR.ttf(0)/m/n/10 tainers, volumes နဲ့ network တို့ကိုပြောတာပါ။ ဒါကြောင့် သ
+ူ့မှာ unused objects တွေကိုဖျက်ပစ်ဖို့အတွက်
+ []
+
+Missing character: There is no ‌ in font [lmmono10-regular]!
+
+Overfull \hbox (13.20313pt too wide) in paragraph at lines 1463--1465
+[]\EU1/lmtt/m/n/10 --‌all option \EU1/PR.ttf(0)/m/n/10 ကတော့ unused ဖြစ်နေတဲ့ d
+ocker နဲ့ပါတ်သတ်တာအကုန်ကိုဆိုလိုတာပါ။ 
+ []
+
+
+Overfull \hbox (3.70898pt too wide) in paragraph at lines 1470--1474
+[]\EU1/lmtt/m/n/10 --filter \EU1/PR.ttf(0)/m/n/10 ဆိုတဲ့ option ကတော့ key=value
+ နဲ့တွဲသုံးရပါတယ်။ ဥပမာ အောက်က com-
+ []
+
+
+Overfull \hbox (19.41406pt too wide) in paragraph at lines 1470--1474
+\EU1/PR.ttf(0)/m/n/10 stop ဖြစ်နေတဲ့ containers တွေ ၊ အသုံးမပြုတော့တဲ့ network 
+တွေကိုဖျက်ပစ်မယ်လို့ပြောတာပါ။ 
+ []
+
+
+Overfull \hbox (25.68848pt too wide) in paragraph at lines 1481--1483
+\EU1/PR.ttf(0)/m/n/10 အောက်က command ကိုတော့ Unused images တွေကိုပဲရွေးဖျက်ချင်
+တယ်ဆိုရင်သုံးလို့ရပါတယ်။ 
+ []
+
+
+Overfull \hbox (54.18945pt too wide) in paragraph at lines 1508--1510
+\EU1/PR.ttf(0)/m/n/10 အပေါ်က command တွေလိုပဲ network တွေကိုဖယ်ရှားချင်တဲ့အခါမှ
+ာလည်း prune ကိုအသုံးပြနိုင်ပါတယ်။ 
+ []
+
+[31]
+Overfull \hbox (17.02148pt too wide) in paragraph at lines 1528--1530
+[]\EU1/PR.ttf(0)/m/n/10 Options တွေကိုအခြေအနေအပေါ်မူတည်ပြီးတော့လည်း ကိုယ့်စိတ်က
+ြိုက် တွဲသုံးနိုင်ပါတယ်။ 
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1595
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1603--1605
+
+ []
+
+[33]
+Overfull \hbox (2.63585pt too wide) in paragraph at lines 1609--1610
+ []\EU1/PR.ttf(0)/bx/n/10 PDF Download[] []$[][][][][][] [] [] [] [][][][][][] 
+[] [][][] [] [][][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][]
+ [][]
+ []
+
+[34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1612.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1612.
+ (./main.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1612.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1612.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1612.
+ ) 
 Here is how much of TeX's memory you used:
- 19937 strings out of 495597
- 374000 string characters out of 6186289
- 404554 words of memory out of 5000000
- 23077 multiletter control sequences out of 15000+600000
- 4136 words of font info for 32 fonts, out of 8000000 for 9000
+ 20126 strings out of 495597
+ 377916 string characters out of 6186289
+ 422658 words of memory out of 5000000
+ 23241 multiletter control sequences out of 15000+600000
+ 4160 words of font info for 35 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
- 36i,4n,59p,10376b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
-Output written on main.pdf (1 page).
+ 36i,5n,59p,10376b,505s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.pdf (34 pages).
