@@ -1,28 +1,23 @@
 # Docker Compose Example
 
-### Step 1 – Create Directory Structure <a id="step-1-&#x2013;-create-directory-structure"></a>
+### Step 1 – Create Directory Structure 
 
-ပထမဆံုး အနေျဖင့္ docker compose အမည္ရွိ directory တစ္ခု တည္ေဆာက္ပါမည္။ ထို႔ ေနာက္ web application သိမ္းဆည္းရန္ webapp အမည္ရွိ directory တည္ေဆာက္ပါမည္။ webapp directory ထဲတငြ္ web application ကိုစမ္းရန္ အတကြ္ index.html ကို တည္ေဆာက္ပါမည္။
+ပထမဆုံး အနေဖြင့် docker compose အမည်ရှိ directory တစ်ခု တည်ဆောက်ပါမည်။ ထို့ နောက် web application သိမ်းဆည်းရန် webapp အမည်ရှိ directory တည်ဆောက်ပါမည်။ webapp directory ထဲတွင် web application ကိုစမ်းရန် အတက်ွ index.html ကို တည်ဆောက်ပါမည်။
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p>$ mkdir dockercompose &amp;&amp; cd dockercompose</p>
-        <p>$ mkdir webapp &amp;&amp; echo &quot;It Works&quot; &gt; webapp/index.html</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>### Step 2 – Create Dockerfile for Webapp <a id="step-2-&#x2013;-create-dockerfile-for-webapp"></a>
+```
+$ mkdir dockercompose && cd dockercompose
+$ mkdir webapp && echo "It Works"; webapp/index.html
+```
 
-ျပီးေနာက္ web application အတကြ္ လုိအပ္ေသာ dockerfile ကို webapp directory ထဲမွာတည္ေဆာက္ပါမည္။  dockerfile သည္ web application အတကြ္ လုိအပ္ေသာ apache web server ပါ၀င္သည့္ customized image တည္ဆာက္ ရန္ျဖစ္ပါသည္။ 
+### Step 2 – Create Dockerfile for Webapp 
+
+ပြီးနောက် web application အတက်ွ လိုအပ်သော dockerfile ကို webapp directory ထဲမှာတည်ဆောက်ပါမည်။  dockerfile သည် web application အတက်ွ လိုအပ်သော apache web server ပါ၀င်သည့် customized image တည်ဆာက် ရန်ဖြစ်ပါသည်။ 
 
 ```text
 $ vim  webapp/Dockerfile
 ```
 
-ထို႔ ေနာက္ ေအာက္ ပါ code မ်ားကို ေပါင္းထည့္ပါ။
+ထို့ နောက် အောက် ပါ code များကို ပေါင်းထည့်ပါ။
 
 ```text
 FROM tecadmin/ubuntu-ssh:16.04
@@ -36,15 +31,15 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 EXPOSE 80
 ```
 
-### Step 3 – Create Docker Compose File <a id="step-3-&#x2013;-create-docker-compose-file"></a>
+### Step 3 – Create Docker Compose File
 
-ထို႔ ေနာက္ လက္ရိွ directory ထဲတငြ္ docker-compose.yml အမည္ရိွ docker configuration ဖိုင္ တစ္ခုကို တည္ေဆာက္ပါမည္။ ထို configuration ဖိုင္ သည္ အသံုးျပဳမည့္ containers အကုန္လံုးကို ကိုယ္စားျပဳမည္ျဖစ္သည္။
+ထို့ နောက် လက်ရှိ directory ထဲတင်ွ docker-compose.yml အမည်ရှိ docker configuration ဖိုင် တစ်ခုကို တည်ဆောက်ပါမည်။ ထို configuration ဖိုင် သည် အသုံးပြုမည့် containers အကုန်လုံးကို ကိုယ်စားပြုမည်ဖြစ်သည်။
 
 ```text
 $ vim  docker-compose.yml
 ```
 
-ထို႔ ေနာက္ ေအာက္ ပါ code မ်ားကို ေပါင္းထည့္ပါ။
+ထို့ နောက် အောက် ပါ code များကို ပေါင်းထည့်ပါ။
 
 version: '3' services: db: image: mysql container\_name: mysql\_db restart: always environment:
 
@@ -68,11 +63,11 @@ version: '3' services: db: image: mysql container\_name: mysql\_db restart: alwa
 
   * "8080:80"
 
-အထက္ပါ ဖိုင္သည္ containers နွစ္ခု အတကြ္ျဖစ္သည္။ ပထမ container သည္ mysql database server အတကြ္ျဖစ္ျပီး ဒုတိယသည္ web server အတကြ္ျဖစ္သည္။ Web container သည္ application မ်ားကို apache server တငြ္ အလုပ္လုပ္ေစမည္ျဖစ္သည္။ webapp directory ကို build directory အျဖစ္ သတ္မွတ္ထားျခင္းျဖစ္သည္။
+အထက်ပါ ဖိုင်သည် containers နှစ်ခု အတက်ွဖြစ်သည်။ ပထမ container သည် mysql database server အတက်ွဖြစ်ပြီး ဒုတိယသည် web server အတက်ွဖြစ်သည်။ Web container သည် application များကို apache server တင်ွ အလုပ်လုပ်စေမည်ဖြစ်သည်။ webapp directory ကို build directory အဖြစ် သတ်မှတ်ထားခြင်းဖြစ်သည်။
 
-### Step 4 – Build Webapp Image <a id="step-4-&#x2013;-build-webapp-image"></a>
+### Step 4 – Build Webapp Image 
 
-ေအာက္ပါ command ျဖင့္ webapp directory အတငြ္းရွိ contents မ်ားနွင့္ Dockerfile ကို အသံုးျပဳ၍ apache အမည္ရွိ image တစ္ခုကို တည္ေဆာက္ပါမည္။
+အောက်ပါ command ဖြင့် webapp directory အတင်ွးရှိ contents များနှင့် Dockerfile ကို အသုံးပြု၍ apache အမည်ရှိ image တစ်ခုကို တည်ဆောက်ပါမည်။
 
 ```text
 $ docker-compose build
@@ -122,9 +117,9 @@ $ docker-compose build
 > Successfully tagged apache:latest
 > ```
 
-### Step 5 – Launch Docker Containers <a id="step-5-&#x2013;-launch-docker-containers"></a>
+### Step 5 – Launch Docker Containers 
 
-docker-compose up ကို အသံုးျပဳ၍ containers မ်ားကို စတင္ေစမည္။ Daemon mode ကို အသံုးျပဳရန္ -d option ကို အသံုးျပဳနိုင္သည္။
+docker-compose up ကို အသုံးပြု၍ containers များကို စတင်စေမည်။ Daemon mode ကို အသုံးပြုရန် -d option ကို အသုံးပြုနိုင်သည်။
 
 ```text
 $ docker-compose up -d
@@ -132,13 +127,13 @@ $ docker-compose up -d
 
 ### Step 6 – Update Content in Web Application <a id="step-6-&#x2013;-update-content-in-web-application"></a>
 
-Web application တငြ္ ေျပာင္းလဲမွဳ မ်ားျပဳလုပ္လိုလွွ်င္
+Web application တင်ွ ပြောင်းလဲမှု များပြုလုပ်လိုလျှင်
 
 ```text
 $ echo "Welcome to Docker Compose Tutorial" >> webapp/index.html
 ```
 
-ျပီးလွ်င္ ေအာက္ပါ command မ်ားကို သံုး၍ webapp container ကို ျပန္လည္ တည္ေဆာက္ျပီး စတင္ အလုပ္လုပ္ေစနိုင္ပါသည္။
+ပြီးလျှင် အောက်ပါ command များကို သုံး၍ webapp container ကို ပြန်လည် တည်ဆောက်ပြီး စတင် အလုပ်လုပ်စေနိုင်ပါသည်။
 
 ```text
 $ docker-compose build
