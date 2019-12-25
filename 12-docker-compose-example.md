@@ -41,27 +41,25 @@ $ vim  docker-compose.yml
 
 ထို့ နောက် အောက် ပါ code များကို ပေါင်းထည့်ပါ။
 
-version: '3' services: db: image: mysql container\_name: mysql\_db restart: always environment:
-
-* MYSQL\_ROOT\_PASSWORD="secret"
-
+```
+version: '3'
+services:
+  db:
+     image: mysql
+     container_name: mysql_db
+     restart: always
+     environment:
+        - MYSQL_ROOT_PASSWORD="secret"
   web:
-
-  image: apache
-
-  build: ./webapp
-
-  depends\_on:
-
-  * db
-
-    container\_name: apache\_web
-
+    image: apache
+    build: ./webapp
+    depends_on:
+       - db
+    container_name: apache_web
     restart: always
-
     ports:
-
-  * "8080:80"
+      - "8080:80"
+```
 
 အထက်ပါ ဖိုင်သည် containers နှစ်ခု အတက်ွဖြစ်သည်။ ပထမ container သည် mysql database server အတက်ွဖြစ်ပြီး ဒုတိယသည် web server အတက်ွဖြစ်သည်။ Web container သည် application များကို apache server တင်ွ အလုပ်လုပ်စေမည်ဖြစ်သည်။ webapp directory ကို build directory အဖြစ် သတ်မှတ်ထားခြင်းဖြစ်သည်။
 
