@@ -10,7 +10,7 @@ Docker Engine ဟာဆိုရင် Docker ရဲ့ core ဖြစ်ပြ�
 
 * Server daemon process တစ်ခုဟာစဥ်ဆက်မပျက် run ခြင်း
 * ကျန်ရှိ​သော API ဟာ daemon ​တွေကို ချိတ်ဆက်ပြီး instruction ​တွေ ကို daemon ​တွေဆီ ​ပေးပို့ခြင်း 
-* Command Line Interface \(CLI\) အဖြစ်​ဆောင်ရွက်ခြင်း စတ​တွေကို လုပ်​ဆောင်​ပေးပါတယ်။
+* Command Line Interface \(CLI\) အဖြစ်​ဆောင်ရွက်ခြင်း စတာတွေကို လုပ်​ဆောင်​ပေးပါတယ်။
 
 ![](.gitbook/assets/screenshot-129.png)
 

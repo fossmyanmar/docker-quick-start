@@ -38,7 +38,7 @@ $ docker network create -d bridge my-bridge-network
 
 ## Container ကို Network ချိတ်ခြင်း။
 
-Container နာမည် \(သို့မဟုတ်\) Container ID ကို အသုံးပြုပြီး မည်သည့် container ကိုမဆို ရှိပြီးသား docker network နဲ့ ချိတ်ဆက်နိုင်ပါတယ်။ Container တစ်ခုကို Network နဲ့ တစ်ချိန် ချိတ်ဆက်ထားရုံနဲ့ အခြား container များကိုလဲ တူညီတဲ့ Network တခုတည်းပေါ်မှာ ဆက်သွယ်လုပ်ဆောင်လို့ရပါတယ်။
+Container နာမည် \(သို့မဟုတ်\) Container ID ကို အသုံးပြုပြီး မည်သည့် container ကိုမဆို ရှိပြီးသား docker network နဲ့ ချိတ်ဆက်နိုင်ပါတယ်။ Container တစ်ခုကို Network နဲ့ တစ်ခါ ချိတ်ဆက်ထားရုံနဲ့ အခြား container များကိုလဲ တူညီတဲ့ Network တစ်ခုတည်းပေါ်မှာ ဆက်သွယ်လုပ်ဆောင်လို့ရပါတယ်။
 
 **Syntax:**
 
@@ -54,7 +54,7 @@ Container နာမည် \(သို့မဟုတ်\) Container ID ကို
 
 ## Docker Network နှင့် Container ကို disconnect လုပ်ခြင်း။
 
-သင့်အနေနဲ့ Network တခုပေါ်ကနေ container ကို disconnect လုပ်ချင်ရင် အောက်ပါ command ကို အသုံးပြုနိုင်ပါတယ်။
+သင့်အနေနဲ့ Network တစ်ခုပေါ်ကနေ container ကို disconnect လုပ်ချင်ရင် အောက်ပါ command ကို အသုံးပြုနိုင်ပါတယ်။
 
 **Syntax:**
 
@@ -70,7 +70,7 @@ $ docker network disconnect [network_name] [container_name]
 
 ## Docker Network တခုရဲ့ အချက်အလက် ကိုကြည့်ခြင်း။
 
-Docker Network တခုရဲ့ အသေးစိတ်အချက် ကို ကြည့်ချင်ရင် inspect option ကို အသုံးပြုပြီး ကြည့်လို့ရပါတယ်။
+Docker Network တစ်ခုရဲ့ အသေးစိတ်အချက်အလက်ကို ကြည့်ချင်ရင် inspect option ကို အသုံးပြုပြီး ကြည့်လို့ရပါတယ်။
 
 ```text
 $ docker network inspect my-bridge-network
@@ -82,7 +82,7 @@ inspect option ကို အသုံးပြုပြီး Docker Network တ
 
 Docker network တွေကို remove လုပ်မယ်ဆိုရင် rm option ကို အသုံးပြုလို့ပါတယ်။
 
-တခုထက်ပိုတဲ့ docker network တွေကို remove လုပ်ချင်ရင် network ID \(သို့မဟုတ်\) network name တွေကို space ခံပြီး အသုံးပြုပြီး remove လုပ်လို့ရပါတယ်။
+တစ်ခုထက်ပိုတဲ့ docker network တွေကို remove လုပ်ချင်ရင် network ID \(သို့မဟုတ်\) network name တွေကို space ခံပြီး အသုံးပြုပြီး remove လုပ်လို့ရပါတယ်။
 
 **Example:**
 

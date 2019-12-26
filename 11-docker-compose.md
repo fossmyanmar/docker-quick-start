@@ -2,7 +2,7 @@
 
 ## Docker Compose
 
-Docker Compose သည် Containers များကို Setup ပြုလုပ်ရာတွင် အသုံးပြုသည့် Tool တခုဖြစ်သည်။ Docker Compose ကိုသုံးခြင်းဖြင့် docker containers များကို Compose File တစ်ခုအနေဖြင့် ဖန်တီးနိုင်သည်။ Images and Containers များကို လည်း Signal Command ဖြင့် လွယ်ကူစွာ build လုပ်နိုင်ပါတယ်။
+Docker Compose သည် Containers များကို Setup ပြုလုပ်ရာတွင် အသုံးပြုသည့် Tool တစ်ခုဖြစ်သည်။ Docker Compose ကိုသုံးခြင်းဖြင့် docker containers များကို Compose File တစ်ခုအနေဖြင့် ဖန်တီးနိုင်သည်။ Images and Containers များကို လည်း Signal Command ဖြင့် လွယ်ကူစွာ build လုပ်နိုင်ပါတယ်။
 
 Docker Compose ပြုလုပ်ရန် အဆင့် \(3\) ဆင့် ရှိသည်။
 
@@ -50,7 +50,7 @@ services:
 
 Docker Compose နှင့် Docker Container များကို manage ပြုလုပ်ရန်အတွက် docker-compose command ကိုလည်း subcommand အဖြင့် provides လုပ်ပေးသည်။
 
-အောက်တွင့် Subcommand အချို့ကို လေ့လာနိုင်သည်။ သတိပြုရန်မှာ Container Name နှင့် Services name ကို မမှားဖို့ သတိပြုရမည်။
+အောက်တွင် Subcommand အချို့ကို လေ့လာနိုင်သည်။ သတိပြုရန်မှာ Container Name နှင့် Services name ကို မမှားဖို့ သတိပြုရမည်။
 
 `build -` build option ဖြင့် images များကို build လုပ်ပြီး Services များကို အသုံးပြုနိုင်သည်။
 
@@ -59,21 +59,22 @@ $ docker-compose build             ## Build all services
 $ docker-compose build web         ## Build single service
 ```
 
-`up –` Current Directory အောက်ရှိ docker-composer.yml မှ docker container နှင့် Services များကို Create ပြုလုပ်ရန်ဖြစ်သည်။ \( -d \) Switch သည် Container ကို daemon mode ဖြင့် run စေရန်ဖြစ်သည်။
+`up –` Current Directory အောက်ရှိ docker-composer.yml မှ docker container နှင့် Services များကို Create ပြုလုပ်ရန်ဖြစ်သည်။
+\( -d \) Switch သည် Container ကို daemon mode ဖြင့် run စေရန်ဖြစ်သည်။
 
 ```text
 $ docker-compose up -d            ## Create all containers
 $ docker-compose up -d web        ## Create single container
 ```
 
-`down –` ဤ Option သည် containers များ၏ Neteork, Container Service and Associate Images များကို ရပ်ရန်, ဖျက်ရန် အသုံးပြုနိုင်သည်။
+`down –` Option သည် containers များ၏ Network, Container Service and Associate Images များကို ရပ်ရန်, ဖျက်ရန် အသုံးပြုနိုင်သည်။
 
 ```text
 $ docker-compose down           ## Restart all containers
 $ docker-compose down web       ## Restart single container
 ```
 
-`ps –` Container များ၏ Services,Status and Port များ၏ process detail ကို သိနိုင်ရန် သုံးသည်။
+`ps –` Container များ၏ Services, Status and Port များ၏ process detail ကို သိနိုင်ရန် သုံးသည်။
 
 ```text
 $ docker-compose ps
