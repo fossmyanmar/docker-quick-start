@@ -2,9 +2,9 @@
 
 ## What are Dockerfile Directives
 
-အ​ရှေ့မှာ Dockerfile ကိုသုံးပြီး image ​ဆောက်​ အဲ့ image ကိုသုံးပြီး​တော့ container ​တွေ ​ဆောက်​တာကို မြင်​ခဲ့ရပြီးပါပြီ။
+အ​ရှေ့မှာ Dockerfile ကိုသုံးပြီး image ​ဆောက်​ခဲ့တယ် ပြီးတေ့ာ အဲဒီ image ကိုသုံးပြီး container ​တွေ ​ဆောက်​တာကို မြင်​ခဲ့ရပြီးပါပြီ။
 
-အခု​ပြောမှာက​တော့ အဲ့ Dockerfile ကို ဘယ်​လို​ရေးမလဲဆိုတာပါ။
+အခု​ပြောမှာက​တော့ အဲ့ဒီ Dockerfile ကို ဘယ်​လို​ရေးမလဲဆိုတာပါ။
 
 Dockerfile ကို Docker directive ​တွေနဲ့​ရေးရတာပါ။
 
@@ -16,7 +16,7 @@ Default အ​နေနဲ့ဆို docker store မှာရှိတဲ့ 
 
 ### LABEL
 
-ဒါက​တော့ နာမည်​အတိုင်​းပဲ label တပ်​တာပါ။ `Maintainer addres​s,vendor name,image version,release date` အစရှိသဖြင့်​ပေါ့။ ဥပမာ
+ဒါက​တော့ နာမည်​အတိုင်းပဲ label တပ်​တာပါ။ `Maintainer addres​s,vendor name,image version,release date` အစရှိသဖြင့်​ပေါ့။ ဥပမာ
 
 ```text
 LABEL maintainer="rahul@tecadmin.net"
@@ -58,13 +58,13 @@ COPY html/* /var/www/html/
 COPY *.conf /etc/apache2/sites-available/
 ```
 
-ပထမ command ရိုက်​လိုက်​ရင်​ host ရဲ့ html directory ​အောက်​က file အကုန်​ကို image ရဲ့ /var/www/html/ ​အောက်​ကို copy ကူသွားမှာပါ။
+ပထမ command ရိုက်​လိုက်​ရင်​ host ရဲ့ html directory ​အောက်​က file အကုန်​ကို image ရဲ့ /var/www/html/ ​အောက်​ကို copy ကူးသွားမှာပါ။
 
 ဒုတိယ command က​တော့ host ရဲ့ .conf extension file အားလုံးကို image ရဲ့ /etc/apache2/sites-available/ ​အောက်​ကို​ပေါ့။
 
 ### WORKDIR
 
-ဒိ directive ကို​တော့ dockerfile ရဲ့အခြား​သော directives ​တွေဖြစ်​တဲ့ `RUN,CMD,ENTRYPOINT,COPY,ADD` ​တွေရဲ့ working directory သတ်​မှတ်​​ပေးဖို့သုံးပါတယ်​
+ဒီ directive ကို​တော့ dockerfile ရဲ့အခြား​သော directives ​တွေဖြစ်​တဲ့ `RUN,CMD,ENTRYPOINT,COPY,ADD` ​တွေရဲ့ working directory သတ်​မှတ်​​ပေးဖို့သုံးပါတယ်​
 
 ```text
 WORKDIR /opt
@@ -87,7 +87,7 @@ CMD ["apachectl", "-D", "FOREGROUND" ]
 
 ### EXPOSE
 
-ဒါက container ရဲ့ port ကိုညွှန်းဆိုမဲ့ directive ပါ။ အ​ပေါ်မှာ​တွေခဲ့တဲ့ docker run -it -p နဲ့ port ချိတ်​တာမှာ ဒီက ညွှန်းဆိုထားတဲ့ port ​တွေနဲ့ ချိတ်​​ပေးရပါမယ်​။
+ဒါက container ရဲ့ port ကိုညွှန်းဆိုမဲ့ directive ပါ။ အ​ပေါ်မှာ​တွေ့ခဲ့တဲ့ docker run -it -p နဲ့ port ချိတ်​တာမှာ ဒီက ညွှန်းဆိုထားတဲ့ port ​တွေနဲ့ ချိတ်​​ပေးရပါမယ်​။
 
 ```text
 EXPOSE 80

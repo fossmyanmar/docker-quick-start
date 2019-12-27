@@ -2,19 +2,19 @@
 
 ## Docker Networking Example
 
-Docker Network tutorial ဖက်ပြီးပြီးဆိုရင် Example လေး စမ်းလုပ်ကြည့်လို့ရပါတယ်။
+Docker Network tutorial ဖတ်ပြီးပြီဆိုရင် Example လေး စမ်းလုပ်ကြည့်လို့ရပါတယ်။
 
-ကျွန်တော် တို့ ဒီ Tutorial မှာတော့ docker containers နှစ်ခုနဲ့ docker network အသေးစားလေး တခု လုပ်ပြသွားမှာ ဖြစ်ပါတယ်။
+ကျွန်တော်တို့ ဒီ Tutorial မှာတော့ docker containers နှစ်ခုနဲ့ docker network အသေးစားလေး တစ်ခု လုပ်ပြသွားမှာ ဖြစ်ပါတယ်။
 
 > MySQL – A relational database server.
 >
 > PHPMyAdmin – A web based interface to manage MySQL server.
 
-အခု tutorial မှာတော့ အခြား MySQL server ကို access လုပ်ဖို့အတွက် အခြား container တခုမှာ run ထားတဲ့ PHPMyAdmin ကို အသုံးပြ ပြသသွားမှာ ဖြစ်ပါတယ်။
+အခု tutorial မှာတော့ အခြား MySQL server ကို access လုပ်ဖို့အတွက် အခြား container တစ်ခုမှာ run ထားတဲ့ PHPMyAdmin ကို အသုံးပြု ပြသသွားမှာ ဖြစ်ပါတယ်။
 
 ## Network တခု Create လုပ်ခြင်း။
 
-ပထမဦးစွာ အနေဖြင့် docker network အသစ် တခု ကို Create လုပ်ဖြစ်ပါတယ်။ my-bridge-network အမည်ရှိသော network အသစ်ကို အောက်ပါ comment အသုံးပြု ပြီး create လုပ်ပါ။
+ပထမဦးစွာ အနေဖြင့် docker network အသစ် တစ်ခုကို Create လုပ်ဖြစ်ပါတယ်။ my-bridge-network အမည်ရှိသော network အသစ်ကို အောက်ပါ command အသုံးပြုပြီး create လုပ်ပါ။
 
 ```text
   $ docker network create -d bridge my-bridge-network
@@ -22,15 +22,15 @@ Docker Network tutorial ဖက်ပြီးပြီးဆိုရင် Exam
 
 ## MySQL Container ကို Run ခြင်း။
 
-အခု ကျွန်တော် တို့ MySQL docker container အသစ် ကို Run မှာ ဖြစ်ပါတယ်။
+အခု ကျွန်တော်တို့ MySQL docker container အသစ်ကို Run မှာ ဖြစ်ပါတယ်။
 
-Default root user password အသစ်ကို သတ်မှတ်ဖို့အတွက် MYSQL\_ROOT\_PASSWORD variable ကို အောက်မှာပြထားတဲ့အတိုင်း ရိုက်ပါ။
+Default root userရဲ့ password အသစ်ကို သတ်မှတ်ဖို့အတွက် MYSQL\_ROOT\_PASSWORD variable ကို အောက်မှာပြထားတဲ့အတိုင်း ရိုက်ပါ။
 
 ```text
 $ docker run --name mysql -e MYSQL_ROOT_PASSWORD=secret -d mysql/mysql-server
 ```
 
-Container တခု create ပြီးနောက် စောစော က ကျွန်တော်တို့ create ထားတဲ့ my-bridge-network network နဲ့ ချိတ်ဆက်မှာ ဖြစ်ပါတယ်။
+Container တစ်ခု create ပြီးနောက် စောစော က ကျွန်တော်တို့ create ထားတဲ့ my-bridge-network network နဲ့ ချိတ်ဆက်မှာ ဖြစ်ပါတယ်။
 
 ```text
 $ docker network connect my-bridge-network mysql
@@ -58,9 +58,9 @@ $ docker run --name phpmyadmin -d -e PMA_HOST=172.21.0.2 -p 8080:80 phpmyadmin/p
 $ docker network inspect my-bridge-network
 ```
 
-## My-bridge-network Network ရဲ့ အချက်အလက် ကိုကြည့်ခြင်း ။
+## My-bridge-network Network ရဲ့ အချက်အလက် ကိုကြည့်ခြင်း။
 
-အပေါ်မှာ ပြခဲ့တဲ့ containers နှစ်ခု ကို ကျွန်တော် တို့ my-bridge-network ထဲ ထည့်ပြီးသွား တဲ့ အတွက် လက်ရှိ my-bridge-network ရဲ့ setting ကို ကြည့်လိုက်ရအောင် ။
+အပေါ်မှာ ပြခဲ့တဲ့ containers နှစ်ခု ကို ကျွန်တော်တို့ my-bridge-network ထဲ ထည့်ပြီးသွားတဲ့ အတွက် လက်ရှိ my-bridge-network ရဲ့ setting ကို ကြည့်လိုက်ရအောင်။
 
 ```text
 $ docker network inspect my-bridge-network
@@ -72,7 +72,7 @@ My-bridge-network ရဲ့ setting ကို ကြည့်ရင်တော�
 
 MySQL default အနေနဲ့ကတော့ remote hosts connect လုပ်တာကို ခွင့်မပြုထားပါဘူး။
 
-ဆိုတော့ ကျွန်တော် တို့ က MySQL connection အတွက် phpmyadmin ကို allow
+ဆိုတော့ ကျွန်တော်တို့က MySQL connection အတွက် phpmyadmin ကို allow
 
 လုပ်ပေးရမှာ ဖြစ်ပါတယ်။ MySQL container shell access ရဖို့အတွက် အောက်မှာ ပြထားတဲ့ လုပ်ရမှာဖြစ်ပါတယ်။
 
@@ -101,7 +101,7 @@ Bye
 
 ## Access MySQL with PHPMyAdmin
 
-နောက်ဆုံးအနေဖြင့် ကျွန်တော် တို့ ရဲ့ docker host system က port 8080 မှ တဆင့် phpmyadmin web user interface ကို ချိတ်ဆက်လို့ ရသွားပါတယ်။
+နောက်ဆုံးအနေဖြင့် ကျွန်တော်တို့ ရဲ့ docker host system က port 8080 မှ တဆင့် phpmyadmin web user interface ကို ချိတ်ဆက်လို့ ရသွားပါတယ်။
 
 phpMyAdmin ကို MySQL ရဲ့ အချက်အလက်တွေ သုံးပြီး အပေါ်မှာ ပြထားတဲ့ အတိုင်း Login ဝင်ရန် အသုံးပြုလို့ရပါတယ်။
 

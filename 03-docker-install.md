@@ -36,7 +36,7 @@ $ sudo apt-get update
   $ sudo apt-get install docker-ce docker-ce-cli containerd.io
   ```
 
-* Docker service run နေကြောင်းကို သိရှိနိုင်ရန် ယခုကဲ့သို ရိုက်ထည့်ပါ။
+* Docker service run နေကြောင်းကို သိရှိနိုင်ရန် ယခုကဲ့သို့ ရိုက်ထည့်ပါ။
 
   ```text
   $ sudo systemctl status docker
@@ -44,7 +44,7 @@ $ sudo apt-get update
 
 `Active: active` ဖြစ်နေပါက docker service run နေကြောင်း သိရှိနိုင်ပါတယ်။
 
-Docker daemon service နှင့်အတူ docker cli ကိုပါ တပါးတည်း ထည့်သွင်းထားတဲ့ အတွက် docker cli ကိုလဲ အသုံးပြုနိုင်မှာဖြစ်ပါတယ်။Docker command များ ကို ယခုလို ကြည့်ရှူနိုင်ပါတယ်။
+Docker daemon service နှင့်အတူ docker cli ကိုပါ တပါတည်း ထည့်သွင်းထားတဲ့ အတွက် docker cli ကိုလဲ အသုံးပြုနိုင်မှာဖြစ်ပါတယ်။Docker command များ ကို ယခုလို ကြည့်ရှုနိုင်ပါတယ်။
 
 ```text
 $ docker
@@ -79,6 +79,7 @@ Commands:
   commit      Create a new image from a container's changes
   cp          Copy files/folders between a container and the local filesystem
   create      Create a new container
+  deploy      Deploy a new stack or update an existing stack
   diff        Inspect changes to files or directories on a container's filesystem
   events      Get real time events from the server
   exec        Run a command in a running container
@@ -122,7 +123,7 @@ Commands:
   $ sudo docker image ls
 ```
 
-Docker ကို ထည့်သွင်း ချိန် docker ဆိုတဲ့ linux user group တခုကို docker က create လုပ်သွားမှာဖြစ်ပါတယ်။ တကယ်လို့ မိမိက sudo ကို အမြဲ မထည့်ပေးစေချင်ဘူးဆိုရင် docker group ထဲကို လက်ရှိ user ကို add ပေးလိုက်ခြင်းဖြစ် sudo command ကို အမြဲရိုက်ထည့်ပေးစရာမလိုပဲ အသုံးပြုနိုင်ပါတယ်။
+Docker ကို ထည့်သွင်း ချိန် docker ဆိုတဲ့ linux user group တခုကို docker က create လုပ်သွားမှာဖြစ်ပါတယ်။ တကယ်လို့ မိမိက sudo ကို အမြဲ မထည့်ပေးစေချင်ဘူးဆိုရင် docker group ထဲကို လက်ရှိ user ကို add ပေးလိုက်ခြင်းဖြင့် sudo command ကို အမြဲရိုက်ထည့်ပေးစရာမလိုပဲ အသုံးပြုနိုင်ပါတယ်။
 
 ```text
 $ sudo usermod -aG docker ${USER}
