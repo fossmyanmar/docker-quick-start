@@ -43,7 +43,7 @@ $ docker build -t apacheimage .
 $ docker run -it -p 8080:80 apacheimage
 ```
 
-အခု Web browser ထဲမှာ host machine ip နဲ့ port 8080 သုံးပြီး access လုပ်မယ်ဆိုလိုရှိရင် အောက်မှာပြထားတယ်ပုံအတိုင်း container ရဲ့ Apache service ပေါ်မှာ run နေတဲ့ web page တစ်မျက်မှာပေါ်လာပါလိမ့်မယ်။ ကျွန်တော့်ရဲ host machine ip ကတော့ 192.168.1.5 ဖြစ်ပါတယ်။
+အခု Web browser ထဲမှာ host machine ip နဲ့ port 8080 သုံးပြီး access လုပ်မယ်ဆိုရင် အောက်မှာပြထားတယ်ပုံအတိုင်း container ရဲ့ Apache service ပေါ်မှာ run နေတဲ့ web page စာမျက်နှာမှာပေါ်လာပါလိမ့်မယ်။ ကျွန်တော့်ရဲ host machine ip ကတော့ 192.168.1.5 ဖြစ်ပါတယ်။
 
 ![](.gitbook/assets/docker_file_and_docker_port.png)
 

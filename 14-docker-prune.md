@@ -56,7 +56,7 @@ $ docker volume prune
 
 ### Prune Network
 
-အပေါ်က command တွေလိုပဲ network တွေကိုဖယ်ရှားချင်တဲ့အခါမှာလည်း prune ကိုအသုံးပြနိုင်ပါတယ်။
+အပေါ်က command တွေလိုပဲ network တွေကိုဖယ်ရှားချင်တဲ့အခါမှာလည်း prune ကိုအသုံးပြုနိုင်ပါတယ်။
 
 ```bash
 $ docker network prune
