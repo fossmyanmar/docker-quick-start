@@ -12,7 +12,7 @@ Dockerfile ကို Docker directive ​တွေနဲ့​ရေးရတာ
 
 ဒီ FROM ဆိုတဲ့ directive ကို base image ယူသုံးဖို့အတွက်​ သုံးတာပါ။ ဥပမာ ခင်​​ဗျားက ubuntu command ​တွေ သုံးလို့ရမဲ့ container တစ်​လုံးလိုချင်​တာဆိုရင်​ `FROM ubuntu` ဆိုပြီးသုံးရမှာပါ။
 
-Default အ​နေနဲ့ဆို docker store မှာရှိတဲ့ ubuntu version ​တွေထဲကမှ latest version ကို ယူသုံးသွားမှာပါ အဲ့လိုမှမဟုတ်​ဘူး latest လိုချင်​တာမဟုတ်​ဘူး ကိုယ်​လိုချင်​တာ သက်​သက်​ဆို အခုလို​ရေးလို့ရပါတယ်​ `FROM tecadmin/ubuntu-ssh:16.04`
+Default အ​နေနဲ့ဆို docker store မှာရှိတဲ့ ubuntu version ​တွေထဲကမှ latest version ကို ယူသုံးသွားမှာပါ အဲ့လိုမှမဟုတ်​ဘူး latest လိုချင်​တာမဟုတ်​ဘူး ကိုယ်​လိုချင်​တာ သက်​သက်​ဆို အခုလို​ရေးလို့ရပါတယ်​။ `FROM tecadmin/ubuntu-ssh:16.04`
 
 ### LABEL
 
@@ -64,7 +64,7 @@ COPY *.conf /etc/apache2/sites-available/
 
 ### WORKDIR
 
-ဒီ directive ကို​တော့ dockerfile ရဲ့အခြား​သော directives ​တွေဖြစ်​တဲ့ `RUN,CMD,ENTRYPOINT,COPY,ADD` ​တွေရဲ့ working directory သတ်​မှတ်​​ပေးဖို့သုံးပါတယ်​
+ဒီ directive ကို​တော့ dockerfile ရဲ့အခြား​သော directives ​တွေဖြစ်​တဲ့ `RUN,CMD,ENTRYPOINT,COPY,ADD` ​တွေရဲ့ working directory သတ်​မှတ်​​ပေးဖို့သုံးပါတယ်​။
 
 ```text
 WORKDIR /opt
@@ -96,7 +96,7 @@ EXPOSE 443
 
 ### ENV
 
-ENV directive ကို​တော့ environment variable သတ်​မှတ်​​ပေးချင်​ရင်​ သုံးတာပါ
+ENV directive ကို​တော့ environment variable သတ်​မှတ်​​ပေးချင်​ရင်​ သုံးတာပါ။
 
 ```text
 ENV PATH=$PATH:/usr/local/psgql/bin/ \
