@@ -2,7 +2,7 @@
 
 ### Step 1 – Create Directory Structure 
 
-ပထမဆုံး အနေဖြင့် docker compose အမည်ရှိ directory တစ်ခု တည်ဆောက်ပါမည်။ ထို့နောက် web application သိမ်းဆည်းရန် webapp အမည်ရှိ directory တည်ဆောက်ပါမည်။ webapp directory ထဲတွင် web application ကိုစမ်းရန် အတွက် index.html ကို တည်ဆောက်ပါမည်။
+ပထမဆုံး အနေဖြင့် docker compose အမည်ရှိ directory တစ်ခု တည်ဆောက်ပါမယ်။ ထို့နောက် web application သိမ်းဆည်းရန် webapp အမည်ရှိ directory တည်ဆောက်ပါမယ်။ webapp directory ထဲတွင် web application ကိုစမ်းရန် အတွက် index.html ကို တည်ဆောက်ပါမယ်။
 
 ```
 $ mkdir dockercompose && cd dockercompose
@@ -11,7 +11,7 @@ $ mkdir webapp && echo "It Works"; webapp/index.html
 
 ### Step 2 – Create Dockerfile for Webapp 
 
-ပြီးနောက် web application အတွက် လိုအပ်သော dockerfile ကို webapp directory ထဲမှာတည်ဆောက်ပါမည်။  dockerfile သည် web application အတွက် လိုအပ်သော apache web server ပါ၀င်သည့် customized image တည်ဆောက်ရန်ဖြစ်ပါသည်။ 
+ပြီးနောက် web application အတွက် လိုအပ်သော dockerfile ကို webapp directory ထဲမှာတည်ဆောက်ပါမယ်။  dockerfile ဟာဆိုရင် web application အတွက် လိုအပ်သော apache web server ပါ၀င်သည့် customized image တည်ဆောက်ရန်ဖြစ်ပါတယ်။ 
 
 ```text
 $ vim  webapp/Dockerfile
@@ -33,13 +33,13 @@ EXPOSE 80
 
 ### Step 3 – Create Docker Compose File
 
-ထို့နောက် လက်ရှိ directory ထဲတွင် docker-compose.yml အမည်ရှိ docker configuration ဖိုင် တစ်ခုကို တည်ဆောက်ပါမည်။ ထို configuration ဖိုင် သည် အသုံးပြုမည့် containers အကုန်လုံးကို ကိုယ်စားပြုမည်ဖြစ်သည်။
+ထို့နောက် လက်ရှိ directory ထဲတွင် docker-compose.yml အမည်ရှိ docker configuration ဖိုင် တစ်ခုကို တည်ဆောက်ပါမယ်။ ထို configuration ဖိုင်ဟာ အသုံးပြုမည့် containers အကုန်လုံးကို ကိုယ်စားပြုမှာဖြစ်ပါတယ်။
 
 ```text
 $ vim  docker-compose.yml
 ```
 
-ထို့ နောက် အောက် ပါ code များကို ပေါင်းထည့်ပါ။
+ထို့နောက် အောက်ပါ code များကို ပေါင်းထည့်ပါ။
 
 ```
 version: '3'
@@ -61,11 +61,11 @@ services:
       - "8080:80"
 ```
 
-အထက်ပါ ဖိုင်သည် containers နှစ်ခု အတွက်ဖြစ်သည်။ ပထမ container သည် mysql database server အတွက်ဖြစ်ပြီး ဒုတိယသည် web server အတွက်ဖြစ်သည်။ Web container သည် application များကို apache server တွင် အလုပ်လုပ်စေမည်ဖြစ်သည်။ webapp directory ကို build directory အဖြစ် သတ်မှတ်ထားခြင်းဖြစ်သည်။
+အထက်ပါ ဖိုင်ဟာ containers နှစ်ခု အတွက်ဖြစ်ပါတယ်။ ပထမ container သည် mysql database server အတွက်ဖြစ်ပြီး ဒုတိယသည် web server အတွက်ဖြစ်ပါတယ်။ Web container ဟာ application များကို apache server တွင် အလုပ်လုပ်စေမှာဖြစ်ပါတယ်။ webapp directory ကို build directory အဖြစ် သတ်မှတ်ထားခြင်းဖြစ်ပါတယ်။
 
 ### Step 4 – Build Webapp Image 
 
-အောက်ပါ command ဖြင့် webapp directory အတွင်းရှိ contents များနှင့် Dockerfile ကို အသုံးပြု၍ apache အမည်ရှိ image တစ်ခုကို တည်ဆောက်ပါမည်။
+အောက်ပါ command ဖြင့် webapp directory အတွင်းရှိ contents များနှင့် Dockerfile ကို အသုံးပြု၍ apache အမည်ရှိ image တစ်ခုကို တည်ဆောက်ပါမယ်။
 
 ```text
 $ docker-compose build
@@ -117,7 +117,7 @@ $ docker-compose build
 
 ### Step 5 – Launch Docker Containers 
 
-docker-compose up ကို အသုံးပြု၍ containers များကို စတင်စေမည်။ Daemon mode ကို အသုံးပြုရန် -d option ကို အသုံးပြုနိုင်သည်။
+docker-compose up ကို အသုံးပြု၍ containers များကို စတင်စေပါမယ်။ Daemon mode ကို အသုံးပြုရန် -d option ကို အသုံးပြုနိုင်ပါတယ်။
 
 ```text
 $ docker-compose up -d
@@ -131,7 +131,7 @@ Web application တွင် ပြောင်းလဲမှု များ�
 $ echo "Welcome to Docker Compose Tutorial" >> webapp/index.html
 ```
 
-ပြီးလျှင် အောက်ပါ command များကို သုံး၍ webapp container ကို ပြန်လည် တည်ဆောက်ပြီး စတင် အလုပ်လုပ်စေနိုင်ပါသည်။
+ပြီးလျှင် အောက်ပါ command များကို သုံး၍ webapp container ကို ပြန်လည် တည်ဆောက်ပြီး စတင် အလုပ်လုပ်စေနိုင်ပါတယ်။
 
 ```text
 $ docker-compose build
